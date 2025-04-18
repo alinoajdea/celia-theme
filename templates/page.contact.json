@@ -1,0 +1,216 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_8mmCgf": {
+      "type": "image-banner",
+      "blocks": {
+        "text_XwtFi7": {
+          "type": "text",
+          "settings": {
+            "text": "Contact",
+            "text_style": "subtitle"
+          }
+        },
+        "heading_fMAkVi": {
+          "type": "heading",
+          "settings": {
+            "heading": "GET IN <em>TOUCH</em>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "text_XwtFi7",
+        "heading_fMAkVi"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/contact-hero-dark.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "feature_icons_aAzbWc": {
+      "type": "feature-icons",
+      "blocks": {
+        "feature_pwLwQB": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/address.png",
+            "title": "Headquarters",
+            "description": "123 Fashion Street, Suite 456New York, NY 10001, USA"
+          }
+        },
+        "feature_aTim34": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/hours.png",
+            "title": "Working hours",
+            "description": "Monday to Saturday: 9 AM – 6 PM<br>Sunday: Closed"
+          }
+        },
+        "feature_QGd8wp": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/info.png",
+            "title": "Information",
+            "description": "Mail: support@diora.boutique<br>Call: +1 (800) 555-1234"
+          }
+        }
+      },
+      "block_order": [
+        "feature_pwLwQB",
+        "feature_aTim34",
+        "feature_QGd8wp"
+      ],
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "mobile_columns": "1",
+        "color_scheme": "scheme-3",
+        "title_font_size": 16,
+        "description_font_size": 14,
+        "icon_size": 50,
+        "padding_top": 48,
+        "padding_bottom": 52
+      }
+    },
+    "rolling_text_VYQfwg": {
+      "type": "rolling-text",
+      "settings": {
+        "text_content": "CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀",
+        "color_scheme": "",
+        "text_color": "#c2945d",
+        "background_color": "#ffffff",
+        "font_size": 50,
+        "line_height": 50,
+        "scroll_speed": 300,
+        "padding_top": 60,
+        "padding_bottom": 20
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 100
+      }
+    },
+    "collapsible_content_4XkMmt": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_NhXUNQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What payment methods do you accept?",
+            "icon": "none",
+            "row_content": "<p>We accept all major credit cards, PayPal, and Klarna for installment payments.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pBpWRP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does shipping take?",
+            "icon": "none",
+            "row_content": "<p>Standard shipping typically takes 5–7 business days. Expedited options are also available at checkout.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BQkLGN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I track my order?",
+            "icon": "none",
+            "row_content": "<p>Once your order ships, you'll receive a tracking number via email.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zPyCpP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I exchange an item for a different size or color?",
+            "icon": "none",
+            "row_content": "<p>Yes, exchanges are available for the same item in a different size or color. Contact us for assistance.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_H6zXWp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I cancel or modify my order?",
+            "icon": "none",
+            "row_content": "<p>Orders can be canceled or modified within 2 hours of purchase. Contact us directly for assistance.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ChEUcJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I receive a damaged or defective item?",
+            "icon": "none",
+            "row_content": "<p>If you receive a damaged product, please contact us immediately with photos, and we’ll resolve the issue.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_NhXUNQ",
+        "collapsible_row_pBpWRP",
+        "collapsible_row_BQkLGN",
+        "collapsible_row_zPyCpP",
+        "collapsible_row_H6zXWp",
+        "collapsible_row_ChEUcJ"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "row",
+        "color_scheme": "scheme-3",
+        "container_color_scheme": "scheme-3",
+        "open_first_collapsible_row": true,
+        "image": "shopify://shop_images/0_3.jpg",
+        "image_ratio": "large",
+        "desktop_layout": "image_first",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_8mmCgf",
+    "feature_icons_aAzbWc",
+    "rolling_text_VYQfwg",
+    "form",
+    "collapsible_content_4XkMmt"
+  ]
+}

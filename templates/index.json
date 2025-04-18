@@ -1,0 +1,674 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/hero11.jpg",
+            "text_background_color": "rgba(0,0,0,0)",
+            "text_above_heading": "The art of style",
+            "heading": "Redefining Modern Feminine <em>Fashion</em>",
+            "heading_size": "hxxl",
+            "heading_transform": "uppercase",
+            "subheading": "Luxury designed for unique moments.",
+            "button_label": "shop collection",
+            "link": "shopify://collections/dresses",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-4",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "slide2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/he2.png",
+            "text_background_color": "rgba(0,0,0,0)",
+            "text_above_heading": "Absolute comfort",
+            "heading": "Light, confortable summer <em>outfits</em>",
+            "heading_size": "hxl",
+            "heading_transform": "uppercase",
+            "subheading": "Styles for warm days and cool nights.",
+            "button_label": "Shop now",
+            "link": "shopify://collections/party",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-4",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "slide_wXDWYG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/he3.png",
+            "text_background_color": "rgba(0,0,0,0)",
+            "text_above_heading": "Chic & refined",
+            "heading": "Smart looks for busy days at the <em>office</em>",
+            "heading_size": "hxl",
+            "heading_transform": "uppercase",
+            "subheading": "From work-ready to weekend vibes.",
+            "button_label": "Shop office",
+            "link": "shopify://collections/tops",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-4",
+            "text_alignment_mobile": "left"
+          }
+        }
+      },
+      "block_order": [
+        "slide1",
+        "slide2",
+        "slide_wXDWYG"
+      ],
+      "custom_css": [],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "classic_navigation": true,
+        "hide_arrows_controls": false,
+        "auto_rotate": false,
+        "change_slides_speed": 7,
+        "enable_products": true,
+        "products_top_heading": "FEATURED PRODUCTS:",
+        "product_1": "soft-midi-wrap-dress",
+        "product_2": "satin-tie-back-blouse",
+        "product_3": "button-up-cotton-top",
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow of new products"
+      }
+    },
+    "rolling_text_d6Xh9k": {
+      "type": "rolling-text",
+      "custom_css": [],
+      "settings": {
+        "text_content": "SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION",
+        "color_scheme": "",
+        "text_color": "#cf924c",
+        "background_color": "#ffffff",
+        "font_size": 50,
+        "line_height": 50,
+        "scroll_speed": 300,
+        "padding_top": 60,
+        "padding_bottom": 12
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/beach"
+          }
+        },
+        "column_mUJHVm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/walk"
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/party"
+          }
+        },
+        "column_j3hXUB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/office"
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column_mUJHVm",
+        "column2",
+        "column_j3hXUB"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 12
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "top_heading": "New arivals",
+        "title": "ALWAYS BE <em>STUNNING</em>",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-in",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 100
+      }
+    },
+    "feature_icons_pVyXBT": {
+      "type": "feature-icons",
+      "blocks": {
+        "feature_HDQcMh": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/dress_cfebaf46-ec87-452c-afd5-64ae6e56e956.png",
+            "title": "Modern Elegance",
+            "description": "Outfits designed to illuminate your beauty with unmatched quality."
+          }
+        },
+        "feature_ydUbCU": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/leaf1_ecd95084-7331-43f9-a4a6-f8d7b244c7c0.png",
+            "title": "Sustainable Fashion",
+            "description": "Eco-friendly fabrics combine comfort, quality, and beauty."
+          }
+        },
+        "feature_AGTiqm": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/check_3a01fa42-cc6e-4bde-9bbf-e63cf62d13f7.png",
+            "title": "Trusted Brands",
+            "description": "Renowned labels ensure premium quality and reliable fashion."
+          }
+        },
+        "feature_F63xNM": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/bag_aaab5216-c75f-457f-8459-206b72b8f859.png",
+            "title": "Excellent Value",
+            "description": "Shop a curated selection of trendy outfits at prices you’ll love."
+          }
+        }
+      },
+      "block_order": [
+        "feature_HDQcMh",
+        "feature_ydUbCU",
+        "feature_AGTiqm",
+        "feature_F63xNM"
+      ],
+      "custom_css": [],
+      "settings": {
+        "subheading": "",
+        "heading": "WHY CHOOSE DIORA",
+        "mobile_columns": "2",
+        "color_scheme": "scheme-3",
+        "title_font_size": 18,
+        "description_font_size": 16,
+        "icon_size": 45,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "collection_list_Paxe6F": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_Rwtc4e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "featured_collection_dwnEBX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tops"
+          }
+        },
+        "featured_collection_7wJYFj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "trousers"
+          }
+        },
+        "featured_collection_qjFEze": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shirts"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_Rwtc4e",
+        "featured_collection_dwnEBX",
+        "featured_collection_7wJYFj",
+        "featured_collection_qjFEze"
+      ],
+      "custom_css": [],
+      "settings": {
+        "top_heading": "Featured collections",
+        "title": "MAKE A GREAT  <em>IMPRESSION</em>",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "layout_style": "fancy",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 92,
+        "padding_bottom": 80
+      }
+    },
+    "featured_brands_aLTaNe": {
+      "type": "featured-brands",
+      "blocks": {
+        "brand_nkCxxH": {
+          "type": "brand",
+          "settings": {
+            "brand_logo": "shopify://shop_images/gs-logo.png",
+            "brand_name": "Guess",
+            "brand_link": "shopify://collections/guess"
+          }
+        },
+        "brand_UjkKQm": {
+          "type": "brand",
+          "settings": {
+            "brand_logo": "shopify://shop_images/gap-logo.png",
+            "brand_name": "",
+            "brand_link": "shopify://collections/gap"
+          }
+        },
+        "brand_98cDmk": {
+          "type": "brand",
+          "settings": {
+            "brand_logo": "shopify://shop_images/boss-logo.png",
+            "brand_name": "",
+            "brand_link": "shopify://collections/boss"
+          }
+        },
+        "brand_yFGdyc": {
+          "type": "brand",
+          "settings": {
+            "brand_logo": "shopify://shop_images/es-logo.png",
+            "brand_name": "",
+            "brand_link": "shopify://collections/esprit"
+          }
+        },
+        "brand_G9wHeX": {
+          "type": "brand",
+          "settings": {
+            "brand_logo": "shopify://shop_images/ck-logo.png",
+            "brand_name": "",
+            "brand_link": "shopify://collections/calvin-klein"
+          }
+        },
+        "brand_YxRHC3": {
+          "type": "brand",
+          "settings": {
+            "brand_logo": "shopify://shop_images/mango-logo.png",
+            "brand_name": "",
+            "brand_link": "shopify://collections/mango"
+          }
+        },
+        "brand_6enjd9": {
+          "type": "brand",
+          "settings": {
+            "brand_logo": "shopify://shop_images/pj-logo.png",
+            "brand_name": "",
+            "brand_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "brand_nkCxxH",
+        "brand_UjkKQm",
+        "brand_98cDmk",
+        "brand_yFGdyc",
+        "brand_G9wHeX",
+        "brand_YxRHC3",
+        "brand_6enjd9"
+      ],
+      "settings": {
+        "title": "Shop Your Favorite Brands",
+        "padding_top": 10,
+        "padding_bottom": 70
+      }
+    },
+    "countdown_offer_jcVBq3": {
+      "type": "countdown-offer",
+      "settings": {
+        "subheading_text": "Smart casual",
+        "heading_text": "LIMITED TIME OFFER",
+        "description_text": "Get it before it expires!",
+        "days_label": "DAYS",
+        "hours_label": "HOURS",
+        "minutes_label": "MINUTES",
+        "seconds_label": "SECONDS",
+        "button_text": "Shop Now",
+        "shop_now_link": "shopify://collections/all",
+        "image": "shopify://shop_images/countdown-offer.jpg",
+        "image_alt_text": "Limited time offer",
+        "countdown_date": "2025-06-06T23:59:59",
+        "background_color": "#f9f3ec",
+        "padding_top": 92,
+        "padding_bottom": 92
+      }
+    },
+    "featured_collection_bNQnMK": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "top_heading": "Popular items",
+        "title": "CHECK OUT OUR <em>BESTSELLERS</em>",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "bestsellers",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 92,
+        "padding_bottom": 100
+      }
+    },
+    "video_TYPEtx": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h0",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/video-bg.mp4",
+        "video_url": "",
+        "description": "",
+        "video_start_time": 0,
+        "video_end_time": 0,
+        "video_opacity": 30,
+        "enable_text_overlay": true,
+        "overlay_top_heading": "Our mission",
+        "overlay_heading": "EMPOWERING <i>WOMEN</i>⠀THROUGH CONFIDENCE AND <i>BEAUTY</i>",
+        "overlay_subheading": "Embrace your individuality and celebrate your own unique style. Fashion is not just about what you wear, it's about how it makes you feel.",
+        "overlay_button_text": "View collections",
+        "overlay_button_link": "shopify://collections",
+        "full_width": true,
+        "color_scheme": "scheme-4",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_product_fxyQzC": {
+      "type": "featured-product",
+      "blocks": {
+        "title_aQhwnd": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_kFQcYa": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_JfHF9K": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_j3Hxej": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_EnMYVK": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "title_aQhwnd",
+        "price_kFQcYa",
+        "variant_picker_JfHF9K",
+        "quantity_selector_j3Hxej",
+        "buy_buttons_EnMYVK"
+      ],
+      "settings": {
+        "product": "oversized-boxy-cotton-shirt",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 100,
+        "padding_bottom": 92
+      }
+    },
+    "customer_reviews_kJnQdP": {
+      "type": "customer-reviews",
+      "blocks": {
+        "review_TcdHja": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/t02.jpg",
+            "name": "Emily James",
+            "review_text": "\"Incredible variety of styles and options! I easily found what I needed for every occasion. Convenient, reliable, and enjoyable experience!\"",
+            "rating": "5"
+          }
+        },
+        "review_wR4jEk": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/t002.jpg",
+            "name": "Dana Miller",
+            "review_text": "\"The styles are so trendy and versatile! Everything I’ve ordered fits perfectly and looks exactly as pictured. Truly love shopping here!\"",
+            "rating": "5"
+          }
+        },
+        "review_JNyUhQ": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/t03.jpg",
+            "name": "Maya Pratt",
+            "review_text": "\"Shopping here is such a breeze. The quality is consistent, the designs are stylish, and delivery is always fast. Highly recommended!\"",
+            "rating": "5"
+          }
+        }
+      },
+      "block_order": [
+        "review_TcdHja",
+        "review_wR4jEk",
+        "review_JNyUhQ"
+      ],
+      "settings": {
+        "heading": "WHY CUSTOMERS <i>LOVE US</i>",
+        "subheading": "Client reviews",
+        "background_color": "#f9f3ec",
+        "padding_top": 92,
+        "padding_bottom": 100
+      }
+    },
+    "rolling_text_qNrjdB": {
+      "type": "rolling-text",
+      "custom_css": [],
+      "settings": {
+        "text_content": "DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀",
+        "color_scheme": "scheme-1",
+        "text_color": "#c2945d",
+        "background_color": "rgba(0,0,0,0)",
+        "font_size": 54,
+        "line_height": 54,
+        "scroll_speed": 300,
+        "padding_top": 100,
+        "padding_bottom": 12
+      }
+    },
+    "collage_CGLWdb": {
+      "type": "collage",
+      "blocks": {
+        "collection_8xMtnW": {
+          "type": "collection",
+          "settings": {
+            "collection": "jumpsuits"
+          }
+        },
+        "product_9fRMbe": {
+          "type": "product",
+          "settings": {
+            "product": "tailored-modern-jumpsuit",
+            "second_image": false
+          }
+        },
+        "product_43qzYj": {
+          "type": "product",
+          "settings": {
+            "product": "classic-button-up-jumpsuit",
+            "second_image": false
+          }
+        },
+        "product_haqAqq": {
+          "type": "product",
+          "settings": {
+            "product": "high-waist-belted-jumpsuit",
+            "second_image": false
+          }
+        },
+        "product_gADKjj": {
+          "type": "product",
+          "settings": {
+            "product": "chic-sleeveless-jumpsuit",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_8xMtnW",
+        "product_9fRMbe",
+        "product_43qzYj",
+        "product_haqAqq",
+        "product_gADKjj"
+      ],
+      "settings": {
+        "top_heading": "",
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 52,
+        "padding_bottom": 100
+      }
+    },
+    "featured_blog_nQMDMT": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "LATEST <em>ARTICLES</em>",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-3",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 92,
+        "padding_bottom": 92
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "rolling_text_d6Xh9k",
+    "multicolumn",
+    "featured_collection",
+    "feature_icons_pVyXBT",
+    "collection_list_Paxe6F",
+    "featured_brands_aLTaNe",
+    "countdown_offer_jcVBq3",
+    "featured_collection_bNQnMK",
+    "video_TYPEtx",
+    "featured_product_fxyQzC",
+    "customer_reviews_kJnQdP",
+    "rolling_text_qNrjdB",
+    "collage_CGLWdb",
+    "featured_blog_nQMDMT"
+  ]
+}

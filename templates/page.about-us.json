@@ -1,0 +1,259 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_QwjMHH": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_zJdMeh": {
+          "type": "heading",
+          "settings": {
+            "heading": "ABOUT <em>DIORA</em>",
+            "heading_size": "h1"
+          }
+        },
+        "text_ic8Uhm": {
+          "type": "text",
+          "settings": {
+            "text": "A modern, stylish, and high-converting Shopify theme designed for fashion retailers. This theme provides the perfect backdrop to showcase your collections.",
+            "text_style": "body"
+          }
+        },
+        "buttons_zwKq9x": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Get in touch",
+            "button_link_1": "shopify://pages/contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "View products",
+            "button_link_2": "shopify://collections/all",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_zJdMeh",
+        "text_ic8Uhm",
+        "buttons_zwKq9x"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/about-hero-dark.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "rolling_text_z9CpF4": {
+      "type": "rolling-text",
+      "settings": {
+        "text_content": "MODERN DESIGN⠀⠀⠀FRESH COLLECTIONS⠀⠀⠀STUNNING OUTFITS⠀⠀⠀MODERN DESIGN⠀⠀⠀FRESH COLLECTIONS⠀⠀⠀STUNNING OUTFITS⠀⠀⠀MODERN DESIGN⠀⠀⠀FRESH COLLECTIONS⠀⠀⠀STUNNING OUTFITS⠀⠀⠀MODERN DESIGN⠀⠀⠀FRESH COLLECTIONS⠀⠀⠀STUNNING OUTFITS⠀⠀⠀",
+        "color_scheme": "scheme-3",
+        "text_color": "#c2945d",
+        "background_color": "#f9f3ec",
+        "font_size": 54,
+        "line_height": 60,
+        "scroll_speed": 300,
+        "padding_top": 40,
+        "padding_bottom": 12
+      }
+    },
+    "image_with_text_mwPEhW": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_qnEApb": {
+          "type": "caption",
+          "settings": {
+            "caption": "I am Diana!",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading_LVeLrF": {
+          "type": "heading",
+          "settings": {
+            "heading": "MEET THE <em>FOUNDER</em>",
+            "heading_size": "h1"
+          }
+        },
+        "text_hDtAi3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I created Diora Boutique to blend timeless style with modern design. My goal is to offer a sleek, effortless shopping experience for fashion lovers everywhere.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_63bx4r": {
+          "type": "button",
+          "settings": {
+            "button_label": "See collections",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_qnEApb",
+        "heading_LVeLrF",
+        "text_hDtAi3",
+        "button_63bx4r"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/founder.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 92,
+        "padding_bottom": 100
+      }
+    },
+    "multicolumn_CctM99": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_myFckY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/b002.jpg",
+            "title": "<em>DEDICATED</em> TO QUALITY",
+            "text": "<p>We prioritize high-quality fabrics and craftsmanship to ensure that every piece lasts. Our collections strive to provide comfort and durability.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UyKr8J": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/b004.jpg",
+            "title": "<em>SUSTAINABLE</em> FASHION",
+            "text": "<p>We believe in a sustainable approach to fashion, sourcing eco-friendly materials and promoting ethical methods. Our pieces are not just stylish, but conscious.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rUyRRx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/b000.jpg",
+            "title": "<em>AFFORDABLE</em> LUXURY",
+            "text": "<p>We strive to make high-quality fashion accessible to everyone, offering luxurious designs at prices that allow you to indulge without the high-end markup.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_myFckY",
+        "column_UyKr8J",
+        "column_rUyRRx"
+      ],
+      "settings": {
+        "title": "WHY IS DIORA <em>DIFFERENT?</em>",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Shop now",
+        "button_link": "shopify://collections/all",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 92,
+        "padding_bottom": 100
+      }
+    },
+    "image_with_text_PdfMN4": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_yxVQNV": {
+          "type": "caption",
+          "settings": {
+            "caption": "Core values",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
+        "heading_pbjP3z": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR  BELIEFS",
+            "heading_size": "h1"
+          }
+        },
+        "text_cHAfRE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We stand for principles that shape the way we create, source, and deliver our collections.  These values define our brand and ensure that every piece reflects our commitment to quality and responsibility.</p><p><strong>✓ Thoughtful Design</strong></p><p><strong>✓ Sustainable Approach</strong></p><p><strong>✓ Women-Led Vision</strong></p>",
+            "text_style": "body"
+          }
+        },
+        "button_F3eGCH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get in touch",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_yxVQNV",
+        "heading_pbjP3z",
+        "text_cHAfRE",
+        "button_F3eGCH"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/beliefs-img.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_QwjMHH",
+    "rolling_text_z9CpF4",
+    "image_with_text_mwPEhW",
+    "multicolumn_CctM99",
+    "image_with_text_PdfMN4"
+  ]
+}

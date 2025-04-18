@@ -1,0 +1,200 @@
+.countdown-offer {
+    background-color: #fef8f5;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .countdown-offer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 2rem;
+  }
+  
+  .countdown-text {
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .countdown-text h2 {
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  
+  .countdown-text p {
+    font-size: 2.6rem;
+    line-height: 1.2;
+    font-weight: 300;
+    margin-bottom: 3.6rem;
+    margin-top: 0;
+    color: rgb(var(--color-foreground));
+  }
+  
+  #countdown-timer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 4.4rem;
+  }
+  
+  .countdown-box {
+    background: #fff;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    width: 20%;
+    max-width: 100px;
+  }
+  
+  .countdown-box span {
+    font-size: 4.2rem;
+    line-height: 1.1;
+    font-weight: 300;
+    color: rgba(var(--color-foreground), 1);
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .countdown-box small {
+    color: rgba(var(--color-foreground), 1);
+    font-size: 1.3rem;
+    line-height: 1.1;
+  }
+  
+  .btn-shop-now {
+    padding: 20px 32px;
+    font-size: 16px !important;
+    line-height: 1 !important;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--buttons-radius-outset);
+    border: 0;
+    cursor: pointer;
+    font: inherit;
+    text-decoration: none;
+    color: rgb(var(--color-button-text));
+    transition: box-shadow var(--duration-short) ease;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: rgba(var(--color-button), 1);
+    
+  }
+  
+  .btn-shop-now:hover {
+    opacity: 0.9;
+  }
+ 
+  .countdown-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .countdown-image img {
+    max-width: 100%;
+    max-height: 500px;
+  }
+
+@media screen and (min-width: 750px) and (max-width: 1023px) {
+  .countdown-text .top-heading {
+    font-size: 4em;
+  }
+  
+  .countdown-text h2 {    
+    font-size: 3.6rem;
+  }
+  
+  .countdown-text p {
+    font-size: 2rem;
+    margin-bottom: 2.8rem;
+  }
+  
+  #countdown-timer {
+    gap: 1rem;
+    margin-bottom: 3.6rem;
+  }
+  
+  .countdown-box {
+    padding: 1.6rem 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    width: 25%;
+    max-width: 80px;
+  }
+  
+  .countdown-box span {
+    font-size: 3.2rem;
+    margin-bottom: 0;
+  }
+  
+  .countdown-box small {
+    font-size: 1.2rem;
+  }
+
+  .btn-shop-now {
+    padding: 16px 26px;
+    font-size: 14px !important;
+  }   
+}
+  
+@media screen and (max-width: 749px) {
+  .countdown-offer-container {
+    flex-direction: column;
+  }
+  
+  .countdown-text {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .countdown-image {
+    width: 100%;
+  }
+    
+  .countdown-text h2 {    
+    font-size: 4.2rem;
+  }
+  
+  .countdown-text p {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+  }
+  
+  #countdown-timer {
+    gap: 1rem;
+    margin-bottom: 3.5rem;
+  }
+  
+  .countdown-box {
+    padding: 1.6rem 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    width: 25%;
+    max-width: 80px;
+  }
+  
+  .countdown-box span {
+    font-size: 3.2rem;
+    margin-bottom: 0;
+  }
+  
+  .countdown-box small {
+    font-size: 1.2rem;
+  }
+  
+  .btn-shop-now {
+    padding: 16px 26px;
+  }
+}
+  

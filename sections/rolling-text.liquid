@@ -1,0 +1,105 @@
+<link rel="stylesheet" href="{{ 'section-rolling-text.css' | asset_url }}" type="text/css">
+<script src="{{ 'rolling-text.js' | asset_url }}" defer="defer"></script>
+
+<div
+  class="rolling-text-wrapper isolate color-scheme--{{ section.settings.color_scheme }}"
+  style="
+    --background-color: {{ section.settings.background_color }};
+    --text-color: {{ section.settings.text_color }};
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  "
+  data-scroll-speed="{{ section.settings.scroll_speed }}"
+>
+  <div
+    class="rolling-text-content"
+    style="font-size: {{ section.settings.font_size }}px; line-height: {{ section.settings.line_height }}px;"
+  >
+    {{ section.settings.text_content }}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Rolling Text Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text_content",
+      "label": "Text Content",
+      "default": "Your rolling text goes here. Add as much as you like! Make sure your text is at least half of the screen width"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color Scheme",
+      "default": "background-1"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#E1929E"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "label": "Font Size (px)",
+      "default": 54,
+      "min": 10,
+      "max": 72,
+      "step": 1
+    },
+    {
+      "type": "range",
+      "id": "line_height",
+      "label": "Line Height (px)",
+      "default": 24,
+      "min": 10,
+      "max": 72,
+      "step": 1
+    },
+    {
+      "type": "range",
+      "id": "scroll_speed",
+      "label": "Scroll Speed (seconds)",
+      "default": 300,
+      "min": 10,
+      "max": 300,
+      "step": 10
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top Padding",
+      "default": 40,
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom Padding",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Rolling Text",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}

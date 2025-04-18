@@ -1,0 +1,119 @@
+<div id="subscribe-modal" class="subscribe-modal hidden">
+  <div class="subscribe-modal-content">
+    <button class="close-subscribe-modal" aria-label="{{ settings.subscribe_modal_close_aria }}">&times;</button>
+    <div class="subscribe-modal-inner">
+      {% if settings.subscribe_modal_image != blank %}
+        <div class="subscribe-modal-image">
+          <img
+            src="{{ settings.subscribe_modal_image | img_url: '800x' }}"
+            alt="{{ settings.subscribe_modal_image_alt }}"
+          >
+        </div>
+      {% endif %}
+      <div class="subscribe-modal-text">
+        <h2>{{ settings.subscribe_modal_title }}</h2>
+        <p>{{ settings.subscribe_modal_description }}</p>
+        {% form 'customer', id: 'SubscribeModalForm', class: 'subscribe-form' %}
+          <!-- Tag the contact so you can identify newsletter signups -->
+          <input type="hidden" name="contact[tags]" value="newsletter">
+          <input
+            type="email"
+            name="contact[email]"
+            placeholder="{{ settings.subscribe_modal_email_placeholder }}"
+            required
+          >
+          <button type="submit">{{ settings.subscribe_modal_button_text }}</button>
+        {% endform %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var modal = document.getElementById('subscribe-modal');
+    var closeButton = modal.querySelector('.close-subscribe-modal');
+    var subscribeForm = document.getElementById('SubscribeModalForm');
+
+    // Preview mode toggle: if enabled, show the modal immediately (ignoring delay/redisplay)
+    var previewEnabled = {{ settings.subscribe_modal_preview | json }};
+    if (previewEnabled) {
+      modal.classList.remove('hidden');
+    } else {
+      // Live mode: use delay and redisplay settings
+      var enableModal = {{ settings.enable_subscribe_modal | json }};
+      var displayDelay = {{ settings.subscribe_modal_delay | json }} * 1000; // seconds → ms
+      var redisplayDelayHours = {{ settings.subscribe_modal_redisplay | json }};
+      var redisplayDelayMs = redisplayDelayHours * 60 * 60 * 1000; // hours → ms
+
+      function setLastShown() {
+        localStorage.setItem('subscribeModalLastShown', Date.now());
+      }
+      function canShowModal() {
+        var lastShown = localStorage.getItem('subscribeModalLastShown');
+        if (!lastShown) return true;
+        return (Date.now() - lastShown) > redisplayDelayMs;
+      }
+      if (enableModal && canShowModal()) {
+        setTimeout(function() {
+          modal.classList.remove('hidden');
+          setLastShown();
+        }, displayDelay);
+      }
+    }
+
+    // Close modal when the close button is clicked
+    closeButton.addEventListener('click', function() {
+      modal.classList.add('hidden');
+    });
+    // (Optional) Close modal when clicking outside the content area
+    modal.addEventListener('click', function(e) {
+      if (e.target === modal) {
+        modal.classList.add('hidden');
+      }
+    });
+
+    // AJAX form submission handling
+    subscribeForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      // Remove any existing message
+      var oldMsg = modal.querySelector('.subscribe-modal-message');
+      if (oldMsg) { oldMsg.remove(); }
+
+      var formData = new FormData(subscribeForm);
+
+      fetch(subscribeForm.action, {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      })
+      .then(function(response) {
+        // Shopify’s contact endpoint for newsletter submissions may return a 400 even on success.
+        // Treat a status of 400 as success.
+        if (response.ok || response.status === 400) {
+          return response.text();
+        }
+        throw new Error('Network response was not ok');
+      })
+      .then(function(text) {
+        // Show the success message (from settings) for 2 seconds before closing the modal
+        var successMsg = document.createElement('div');
+        successMsg.className = 'subscribe-modal-message';
+        successMsg.innerText = {{ settings.subscribe_modal_success_message | json }};
+        subscribeForm.parentNode.insertBefore(successMsg, subscribeForm.nextSibling);
+        setTimeout(function() {
+          modal.classList.add('hidden');
+          successMsg.remove();
+        }, 2000);
+      })
+      .catch(function(error) {
+        // If an error occurs, display the error message from settings
+        var errorMsg = document.createElement('div');
+        errorMsg.className = 'subscribe-modal-message subscribe-modal-error';
+        errorMsg.innerText = {{ settings.subscribe_modal_error_message | json }};
+        subscribeForm.parentNode.insertBefore(errorMsg, subscribeForm.nextSibling);
+      });
+    });
+  });
+</script>

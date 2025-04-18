@@ -1,0 +1,38 @@
+.rolling-text-wrapper {
+  overflow: hidden;
+  background-color: var(--background-color, #FFFFFF);
+  color: var(--text-color, #000000);
+  white-space: nowrap;
+  padding: 20px 0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.rolling-text-content {
+  display: inline-block;
+  animation: scrollText linear infinite;
+  white-space: nowrap;
+  /* Duplicate the content inside for smoother looping */
+  position: relative;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Color schemes based on Dawn theme conventions */
+.color-scheme--background-1 .rolling-text-wrapper {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.color-scheme--background-2 .rolling-text-wrapper {
+  background-color: var(--color-background-inverse);
+  color: var(--color-text-inverse);
+}

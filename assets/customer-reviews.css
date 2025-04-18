@@ -1,0 +1,132 @@
+/* General styles for the Customer Reviews section */
+.reviews-header {
+  margin-bottom: 6rem;
+}
+
+.reviews-header .heading {
+  color: rgb(var(--color-foreground));    
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+.reviews-grid {
+    display: flex;
+    justify-content: center;
+}
+
+/* Review Card */
+.review-card {
+    padding: 0 4%;
+    min-width: 33.3333%;
+    max-width: 60%;
+}
+
+.review-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Left Section: Avatar */
+.review-left {
+    margin: 0 20px 0 -20px;
+}
+
+.review-avatar {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review-name-stars {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.review-name {
+  color: rgb(var(--color-foreground));   
+  font-size: 1.8rem;
+  line-height: 1.2;    
+  font-family: var(--font-body-family);
+  font-weight: 700;
+  margin: 0px;
+}
+
+.review-stars {
+    color: rgb(var(--color-button));
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.review-text {
+    font-size: 1.5rem;
+    color: rgb(var(--color-foreground));   
+    line-height: 1.5;
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Responsive Adjustments */
+@media screen and (min-width: 750px) and (max-width: 1023px) {
+  .review-card {
+      padding: 0 2%;
+  }
+
+  .review-left {
+      margin: 0 15px 0 -10px;
+  }
+  
+  .review-avatar {
+      width: 64px;
+      height: 64px;
+  }
+    
+  .review-name {  
+    font-size: 1.6rem;
+  }
+  
+  .review-stars {
+      font-size: 14px;
+  }
+  
+  .review-text {
+      font-size: 1.4rem;
+      margin-top: 5px;
+  }
+}
+
+
+
+
+@media (max-width: 749px) {
+  .reviews-header {
+    margin-bottom: 4rem;
+  }
+  
+  .reviews-header .heading {
+    font-size: 3rem;
+  }
+  
+  .reviews-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+  }
+
+  .review-card {
+      padding: 0 3%;
+      width: 100%;
+      min-width: auto;
+      max-width: 100%;
+  }
+}
+
+
+

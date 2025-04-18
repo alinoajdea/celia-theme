@@ -1,0 +1,42 @@
+<quick-view>
+  <div id="quick-view-modal" class="quick-view-modal hidden">
+    <div class="quick-view-content">
+      <button class="close-quick-view" aria-label="{{ 'products.product.close' | t }}">&times;</button>
+      <div id="quick-view-product-content">
+        <div class="quick-view-wrapper">
+          <div class="quick-view-gallery"></div>
+          <div class="quick-view-details">
+            <h2 class="product-title"></h2>
+            <p class="product-price"></p>
+            <div class="product-description"></div>
+            <a href="#" class="view-full-details">
+              {{ 'products.product.view_full_details' | t }}
+            </a>
+            <form class="quick-view-variants hidden"></form>
+            <div class="quantity-and-cart">
+              <label for="quantity">{{ 'products.product.quantity.label' | t }}</label>
+              <input type="number" id="quantity" class="quantity-input" value="1" min="1">
+              <button class="add-to-cart">{{ 'products.product.add_to_cart' | t }}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pass translations to JavaScript -->
+  <script>
+    window.translations = {
+      addToCart: "{{ 'products.product.add_to_cart' | t }}",
+      unavailable: "{{ 'products.product.unavailable' | t }}",
+      errorLoading: "{{ 'accessibility.loading' | t }}",
+      addToCartError: "{{ 'general.cart.cart_error' }}",
+      galleryViewer: "{{ 'products.product.media.gallery_viewer' | t }}",
+      loadImage: "{{ 'products.product.media.load_image' | t }}",
+      quantity: "{{ 'products.product.quantity.label' | t }}",
+      viewFullDetails: "{{ 'products.product.view_full_details' | t }}",
+      chooseOptions: "{{ 'products.product.choose_options' | t }}",
+      loading: "{{ 'accessibility.loading' | t }}",
+    };
+  </script>
+</quick-view>

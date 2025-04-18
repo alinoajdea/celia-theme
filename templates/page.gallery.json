@@ -1,0 +1,167 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_7gryn8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HLW73E": {
+          "type": "heading",
+          "settings": {
+            "heading": "IMAGE GALLERY",
+            "heading_size": "h1"
+          }
+        },
+        "text_enHiTy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover stunning imagery that brings fashion to life. From curated outfits to editorial shots, this gallery showcases the essence of style. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HLW73E",
+        "text_enHiTy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 60
+      }
+    },
+    "multicolumn_Awixqc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_fk49tW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tr42.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wy37Mb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sb22.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CBeFBw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sb42.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mxEVjJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tr13.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XQaEYa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tb44.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FrKmbC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tb34.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8afGCN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/db24.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3CNJdV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tw24.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_fk49tW",
+        "column_wy37Mb",
+        "column_CBeFBw",
+        "column_mxEVjJ",
+        "column_XQaEYa",
+        "column_FrKmbC",
+        "column_8afGCN",
+        "column_3CNJdV"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "All products",
+        "button_link": "shopify://collections/all",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_7gryn8",
+    "multicolumn_Awixqc"
+  ]
+}

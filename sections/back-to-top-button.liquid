@@ -1,0 +1,59 @@
+{% if settings.enable_back_to_top %}
+    <a id="BackToTop" href="#" title="Back to the top" class="back-to-top hide">
+      <span class="visually-hidden">Back to top</span>
+      <img src="{{ 'icon-arrow.svg' | asset_url }}" alt="Back to top arrow" />
+    </a>
+  
+    <style>
+      .back-to-top {
+        position: fixed;
+        bottom: {{ settings.position_from_bottom }};
+        right: 1em;
+        text-decoration: none;
+        background-color: #fff;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        border-radius: 50%;
+        z-index: 9999;
+        cursor: pointer;
+        transition: opacity 0.3s ease;
+        opacity: 0.7;
+        line-height: 0;
+      }
+      .back-to-top:hover {
+        opacity: 1;
+      }
+      .back-to-top img {
+        width: 20px;
+        height: 20px;
+        transform: rotate(-90deg); /* Rotate arrow upwards */
+      }
+      .hide {
+        display: none !important;
+      }
+    </style>
+  
+    <script>
+      (() => {
+        const offset = parseInt({{ settings.vertical_offset_for_trigger }}, 10);
+        const backToTopBtn = document.querySelector('.back-to-top');
+  
+        const trackScroll = () => {
+          if (window.pageYOffset > offset) {
+            backToTopBtn.classList.remove('hide');
+          } else {
+            backToTopBtn.classList.add('hide');
+          }
+        };
+  
+        const backToTop = (evt) => {
+          evt.preventDefault();
+          window.scrollTo({top: 0, behavior: 'smooth'});
+        };
+  
+        window.addEventListener('scroll', trackScroll);
+        backToTopBtn.addEventListener('click', backToTop);
+      })();
+    </script>
+  {% endif %}
+  

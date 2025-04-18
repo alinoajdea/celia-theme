@@ -1,0 +1,136 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_4XkMmt": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_iQtftn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this theme easy to install?",
+            "icon": "none",
+            "row_content": "<p>Yes! The theme comes with a step-by-step video guide, and if you need extra help, I offer <strong>free installation upon request</strong> to match the demo.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NhXUNQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need to pay for extra apps?",
+            "icon": "none",
+            "row_content": "<p>No, the theme replaces the need of paying for apps by including <strong>built-in premium features</strong> that save you money while giving you advanced functionality.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pBpWRP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I customize the theme to match my brand?",
+            "icon": "none",
+            "row_content": "<p>Absolutely! You can easily change colors, fonts, images, and layouts using Shopify’s built-in editor—<strong>no coding required</strong>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BQkLGN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will I get all the demo images and content?",
+            "icon": "none",
+            "row_content": "<p>Yes! You receive <strong>all images, videos, Canva banners, and the full product catalog (CSV file)</strong> so you can start with a professional look.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tcJGD3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I need help after purchasing?",
+            "icon": "none",
+            "row_content": "<p>I offer <strong>customer support</strong> to assist with any questions related to theme setup, installation, and minor tweaks.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zPyCpP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use this theme for multiple stores?",
+            "icon": "none",
+            "row_content": "<p>The license is for <strong>one store per purchase</strong>. If you need it for multiple stores, you’ll need to purchase additional licenses.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_H6zXWp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the theme mobile-friendly?",
+            "icon": "none",
+            "row_content": "<p>Yes, it is <strong>fully responsive</strong>, ensuring your store looks great and functions perfectly on desktops, tablets, and phones.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aE6dNQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will my store run fast with this theme?",
+            "icon": "none",
+            "row_content": "<p>Yes! The theme is <strong>optimized for speed</strong>, so your store will load quickly without unnecessary bloat.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ChEUcJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What happens if Shopify updates its platform?",
+            "icon": "none",
+            "row_content": "<p>The theme is designed to be <strong>compatible with Shopify’s updates</strong>, so it will continue to work smoothly as the platform evolves.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_iQtftn",
+        "collapsible_row_NhXUNQ",
+        "collapsible_row_pBpWRP",
+        "collapsible_row_BQkLGN",
+        "collapsible_row_tcJGD3",
+        "collapsible_row_zPyCpP",
+        "collapsible_row_H6zXWp",
+        "collapsible_row_aE6dNQ",
+        "collapsible_row_ChEUcJ"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ - Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "scheme-3",
+        "container_color_scheme": "scheme-3",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_4XkMmt"
+  ]
+}

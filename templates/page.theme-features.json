@@ -1,0 +1,201 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_3XJCKm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_U7E9EE": {
+          "type": "heading",
+          "settings": {
+            "heading": "POWERFUL THEME <em>FEATURES</em>",
+            "heading_size": "h1"
+          }
+        },
+        "text_gfXNyB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore a collection of smart, stylish, and user-friendly features built to enhance your online store. From customizable layouts to engaging product displays, every detail is designed to create a seamless shopping experience.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_U7E9EE",
+        "text_gfXNyB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 12
+      }
+    },
+    "multirow_mCqqcf": {
+      "type": "multirow",
+      "blocks": {
+        "row_H4eemY": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/features-hero-header.jpg",
+            "caption": "",
+            "heading": "CUSTOMIZABLE HERO SLIDER",
+            "text": "<p>Easily add slides, change images, update text, and customize buttons to match your brand. Highlight three featured posts of your choice to drive engagement.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_HYMWL7": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/features-mega.jpg",
+            "caption": "",
+            "heading": "INTERACTIVE MEGA MENU",
+            "text": "<p>We display the most important information alongside a beautiful customizable banner that enhances the browsing experience that helps customers quickly find what they love.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_qaHmYp": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/features-collections.jpg",
+            "caption": "",
+            "heading": "DYNAMIC COLLECTION GRID",
+            "text": "<p>Introduce the <em>Fancy Grid</em> for showcasing collections - a visually engaging box style arrangement. This layout presents collections in varied box sizes, making the display more dynamic and stylish.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_HUBV6Q": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/features-quick.jpg",
+            "caption": "",
+            "heading": "QUICK VIEW FOR FASTER SHOPPING",
+            "text": "<p>Hover over a product, and a discreet Quick View button appears, opening a sleek modal window. Shoppers can instantly see key product details, select attributes like size and color, and add items to their cart - all without leaving the page.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_GNbaiX": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/features-reviews.jpg",
+            "caption": "",
+            "heading": "CUSTOMER REVIEWS",
+            "text": "<p>Showcase authentic feedback with a beautifully designed review section that highlights real customer experiences. Each review includes an image, name, five-star rating, and a testimonial, making it easy for visitors to trust your store.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_YbTBWt": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/features-scroll.jpg",
+            "caption": "",
+            "heading": "CUSTOMIZABLE SCROLLING TEXT",
+            "text": "<p>Add a dynamic touch to your store with a scrolling text banner. Easily adjust the size and customize the message to highlight promotions, announcements, or brand statements.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_UbzpTK": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/features-timer.jpg",
+            "caption": "",
+            "heading": "LIMITED TIME OFFER COUNTDOWN TIMER",
+            "text": "<p>Create urgency with a dynamic countdown timer. This section includes a bold title, compelling description, countdown display, and a CTA button, all set beside a striking image. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_Uh3pk4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/features-icons.jpg",
+            "caption": "",
+            "heading": "ICONS SECTION FOR BUILDING TRUST",
+            "text": "<p>A dedicated trust section helps reassure customers by highlighting key brand values. Featuring icons, titles, and short descriptions, this section allows you to enhance credibility and build confidence for your customers.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_q3DmDc": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/features-collage.jpg",
+            "caption": "",
+            "heading": "EXTENDED COLLAGE",
+            "text": "<p>Showcase up to four products alongside a featured collection in a visually engaging grid layout. Perfect for highlighting bestsellers, seasonal must-haves, or curated looks, this section blends imagery and functionality seamlessly.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_hTayMt": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/features-video.jpg",
+            "caption": "",
+            "heading": "VIDEO BACKGROUND",
+            "text": "<p>Capture attention instantly with a full-width video background that brings your brand to life. This dynamic section features titles, description, and call-to-action button, allowing you to highlight key messages in an engaging and visually striking way.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_H4eemY",
+        "row_HYMWL7",
+        "row_qaHmYp",
+        "row_HUBV6Q",
+        "row_GNbaiX",
+        "row_YbTBWt",
+        "row_UbzpTK",
+        "row_Uh3pk4",
+        "row_q3DmDc",
+        "row_hTayMt"
+      ],
+      "custom_css": [
+        ".image-with-text__media {box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);}"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-3",
+        "row_color_scheme": "scheme-3",
+        "mobile_content_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_3XJCKm",
+    "multirow_mCqqcf"
+  ]
+}

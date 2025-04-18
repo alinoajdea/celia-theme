@@ -1,0 +1,151 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "17405199146f76efea": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_9PQLPH": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "FOLLOW US @DIORABOUTIQUE",
+            "title_color": "",
+            "title_size": 0,
+            "alignment": "center",
+            "margin_top": 10,
+            "margin_bottom": 10,
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_9PQLPH"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "feature_icons_XPdFFF": {
+      "type": "feature-icons",
+      "blocks": {
+        "feature_tgybCw": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/w-box.png",
+            "title": "Free Shipping",
+            "description": ""
+          }
+        },
+        "feature_4q6rxH": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/w-returns.png",
+            "title": "Easy Returns",
+            "description": ""
+          }
+        },
+        "feature_hjVWXa": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/w-pay.png",
+            "title": "Secure Payments",
+            "description": ""
+          }
+        },
+        "feature_3hCTUF": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/w-support.png",
+            "title": "Customer Support",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_tgybCw",
+        "feature_4q6rxH",
+        "feature_hjVWXa",
+        "feature_3hCTUF"
+      ],
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "mobile_columns": "2",
+        "color_scheme": "scheme-4",
+        "title_font_size": 14,
+        "description_font_size": 12,
+        "icon_size": 35,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "brand_information_VedWDw": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "SHOP",
+            "menu": "footer"
+          }
+        },
+        "link_list_tGNVeN": {
+          "type": "link_list",
+          "settings": {
+            "heading": "BRANDS",
+            "menu": "footer-brands-menu"
+          }
+        },
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "QUICK LINKS",
+            "menu": "footer-quick-links"
+          }
+        }
+      },
+      "block_order": [
+        "brand_information_VedWDw",
+        "footer-1",
+        "link_list_tGNVeN",
+        "footer-0"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "newsletter_enable": true,
+        "newsletter_heading": "SUBSCRIBE AND GET <em>10% DISCOUNT</em>",
+        "enable_follow_on_shop": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 60,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "17405199146f76efea",
+    "feature_icons_XPdFFF",
+    "footer"
+  ]
+}

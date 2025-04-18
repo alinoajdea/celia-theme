@@ -1,0 +1,56 @@
+.featured-brands-section {
+    text-align: center;
+    background-color: var(--color-background);
+}
+
+.featured-brands-title {
+    font-family: var(--font-body-family);
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(var(--color-foreground));
+    margin-bottom: 4rem;
+}
+
+.brands-grid {
+    display: flex;
+    gap: 20px;  
+    align-items: center;
+    justify-content: space-around;
+}
+
+.brand-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 120px;
+}
+
+.brand-logo a {  
+  display: block;
+}
+
+.brand-logo img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 45px;
+}
+
+.brand-logo:hover {
+    transform: translateY(-3px);
+}
+
+@media screen and (max-width: 749px) {
+  .brands-grid {
+    flex-wrap: wrap;
+  }
+  
+  .brand-logo {
+    max-width: 90px;
+  }
+
+  .brand-logo img {
+    max-height: 36px;
+  }
+}

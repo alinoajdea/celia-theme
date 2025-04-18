@@ -1,0 +1,157 @@
+<link rel="stylesheet" href="{{ 'countdown-offer.css' | asset_url }}" type="text/css">
+<script src="{{ 'countdown-offer.js' | asset_url }}" defer="defer"></script>
+
+<div
+  class="countdown-offer-wrapper isolate"
+  style="
+    background-color: {{ section.settings.background_color }};
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  "
+  data-end-date="{{ section.settings.countdown_date }}"
+>
+  <div class="countdown-offer-container page-width">
+    <div class="countdown-text">
+      <h3 class="top-heading">{{ section.settings.subheading_text }}</h3>
+      <h2 class="h1">{{ section.settings.heading_text }}</h2>
+      <p>{{ section.settings.description_text }}</p>
+      <div id="countdown-timer">
+        <div class="countdown-box">
+          <span id="days">00</span>
+          <small>{{ section.settings.days_label }}</small>
+        </div>
+        <div class="countdown-box">
+          <span id="hours">00</span>
+          <small>{{ section.settings.hours_label }}</small>
+        </div>
+        <div class="countdown-box">
+          <span id="minutes">00</span>
+          <small>{{ section.settings.minutes_label }}</small>
+        </div>
+        <div class="countdown-box">
+          <span id="seconds">00</span>
+          <small>{{ section.settings.seconds_label }}</small>
+        </div>
+      </div>
+      <a href="{{ section.settings.shop_now_link }}" class="btn-shop-now">{{ section.settings.button_text }}</a>
+    </div>
+    <div class="countdown-image">
+      {% if section.settings.image != blank %}
+        <img src="{{ section.settings.image | img_url: 'master' }}" alt="{{ section.settings.image_alt_text }}">
+      {% else %}
+        {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Countdown Offer",
+  "settings": [
+    {
+      "type": "text",
+      "id": "subheading_text",
+      "label": "Top Heading",
+      "default": "SMART CASUAL COLLECTION"
+    },
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading Text",
+      "default": "Limited time offer"
+    },
+    {
+      "type": "textarea",
+      "id": "description_text",
+      "label": "Description Text",
+      "default": "Get it before it expires!"
+    },
+    {
+      "type": "text",
+      "id": "days_label",
+      "label": "Days Label",
+      "default": "Days"
+    },
+    {
+      "type": "text",
+      "id": "hours_label",
+      "label": "Hours Label",
+      "default": "Hours"
+    },
+    {
+      "type": "text",
+      "id": "minutes_label",
+      "label": "Minutes Label",
+      "default": "Minutes"
+    },
+    {
+      "type": "text",
+      "id": "seconds_label",
+      "label": "Seconds Label",
+      "default": "Seconds"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "shop_now_link",
+      "label": "Shop Now Link",
+      "default": "/"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Offer Image"
+    },
+    {
+      "type": "text",
+      "id": "image_alt_text",
+      "label": "Image Alt Text",
+      "default": "Limited time offer"
+    },
+    {
+      "type": "text",
+      "id": "countdown_date",
+      "label": "Countdown End Date (YYYY-MM-DDTHH:MM:SS)",
+      "default": "2025-06-06T23:59:59"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#FDF8F5"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top Padding",
+      "default": 100,
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom Padding",
+      "default": 100,
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Countdown Offer",
+      "category": "Promotions"
+    }
+  ]
+}
+{% endschema %}
