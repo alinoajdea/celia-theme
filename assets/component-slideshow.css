@@ -28,7 +28,7 @@ slideshow-component .slideshow.banner {
 }
 
 .slideshow__text.banner__box .top-heading {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .slideshow__text>* {
