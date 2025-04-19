@@ -272,11 +272,11 @@ h6,
 
 @media only screen and (min-width: 750px) {
   .hxxl {
-    font-size: clamp(calc(var(--font-heading-scale) * 5.6rem), 14vw, calc(var(--font-heading-scale) * 9rem));
+    font-size: clamp(calc(var(--font-heading-scale) * 5.6rem), 14vw, calc(var(--font-heading-scale) * 12rem));
   }
 
   .hxl {
-    font-size: calc(var(--font-heading-scale) * 8rem);
+    font-size: calc(var(--font-heading-scale) * 10rem);
   }
   
   .h0 {
