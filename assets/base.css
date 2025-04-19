@@ -280,7 +280,7 @@ h6,
   }
   
   .h0 {
-    font-size: calc(var(--font-heading-scale) * 7rem);
+    font-size: calc(var(--font-heading-scale) * 8rem);
   }
 
   h1, .h1 {
