@@ -15,9 +15,10 @@
         "slide1": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/celia-hero11.png",
             "text_background_color": "rgba(0,0,0,0)",
-            "text_above_heading": "The art of style",
-            "heading": "Redefining Modern Feminine <em>Fashion</em>",
+            "text_above_heading": "DON'T MISS OUT",
+            "heading": "SUMMER SALE",
             "heading_size": "hxxl",
             "heading_transform": "uppercase",
             "subheading": "Luxury designed for unique moments.",
@@ -103,6 +104,7 @@
         "brand_nkCxxH": {
           "type": "brand",
           "settings": {
+            "brand_logo": "shopify://shop_images/gs-logo.png",
             "brand_name": "Guess",
             "brand_link": "shopify://collections/guess"
           }
@@ -110,6 +112,7 @@
         "brand_UjkKQm": {
           "type": "brand",
           "settings": {
+            "brand_logo": "shopify://shop_images/gap-logo.png",
             "brand_name": "",
             "brand_link": "shopify://collections/gap"
           }
@@ -117,6 +120,7 @@
         "brand_98cDmk": {
           "type": "brand",
           "settings": {
+            "brand_logo": "shopify://shop_images/boss-logo.png",
             "brand_name": "",
             "brand_link": "shopify://collections/boss"
           }
@@ -124,6 +128,7 @@
         "brand_yFGdyc": {
           "type": "brand",
           "settings": {
+            "brand_logo": "shopify://shop_images/es-logo.png",
             "brand_name": "",
             "brand_link": "shopify://collections/esprit"
           }
@@ -131,6 +136,7 @@
         "brand_G9wHeX": {
           "type": "brand",
           "settings": {
+            "brand_logo": "shopify://shop_images/ck-logo.png",
             "brand_name": "",
             "brand_link": "shopify://collections/calvin-klein"
           }
@@ -138,6 +144,7 @@
         "brand_YxRHC3": {
           "type": "brand",
           "settings": {
+            "brand_logo": "shopify://shop_images/mango-logo.png",
             "brand_name": "",
             "brand_link": "shopify://collections/mango"
           }
@@ -145,6 +152,7 @@
         "brand_6enjd9": {
           "type": "brand",
           "settings": {
+            "brand_logo": "shopify://shop_images/pj-logo.png",
             "brand_name": "",
             "brand_link": ""
           }
@@ -161,8 +169,8 @@
       ],
       "settings": {
         "title": "",
-        "padding_top": 70,
-        "padding_bottom": 70
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "multicolumn": {
@@ -171,6 +179,7 @@
         "column1": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/enkiduro_httpss.mj.runhediAiEugxE_httpss.mj.runWiSkWJF47Vo_ht_19b019c7-b5a6-4bd1-bb17-d1a37959ceaa_1.png",
             "title": "",
             "text": "",
             "link_label": "",

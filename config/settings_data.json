@@ -16,6 +16,8 @@
     "top_heading_custom_font_url": "",
     "type_header_font": "oswald_n7",
     "heading_scale": 100,
+    "heading_custom_font_family": "",
+    "heading_custom_font_url": "",
     "type_body_font": "inter_n4",
     "body_scale": 100,
     "page_width": 1400,
