@@ -356,7 +356,7 @@ slideshow-component:not(.page-width) .slider-buttons {
 }
 
 .slideshow__slide .slideshow__text .banner__text p {
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 1.2;
   color: rgb(var(--color-foreground)) !important;
 }
