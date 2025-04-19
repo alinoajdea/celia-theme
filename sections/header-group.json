@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to Diora Boutique - First order 30% OFF - Use code HELLODIORA",
+            "text": "Welcome to Celia Fashion - First order 30% OFF - Use code HELLOCELIA",
             "link": ""
           }
         }
@@ -30,7 +30,7 @@
         "@media (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.25rem); }}"
       ],
       "settings": {
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-4",
         "show_line_separator": false,
         "show_social": false,
         "auto_rotate": false,
@@ -46,7 +46,6 @@
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "mega",
-        "mega_menu_image": "shopify://shop_images/modal-img.jpg",
         "mega_menu_button_text": "Buy Tops",
         "mega_menu_button_url": "shopify://collections/tops",
         "sticky_header_type": "on-scroll-up",

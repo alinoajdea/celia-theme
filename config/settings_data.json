@@ -11,10 +11,10 @@
   "current": {
     "logo": "shopify://shop_images/logo-diora-boutique.png",
     "logo_width": 100,
-    "type_top_heading_font_picker": "poppins_n4",
-    "top_heading_custom_font_family": "Calligraphic",
-    "top_heading_custom_font_url": "https://cdn.shopify.com/s/files/1/0891/1165/8762/files/calligraphic.ttf?v=1742767886",
-    "type_header_font": "bodoni_moda_n4",
+    "type_top_heading_font_picker": "inter_n4",
+    "top_heading_custom_font_family": "",
+    "top_heading_custom_font_url": "",
+    "type_header_font": "oswald_n7",
     "heading_scale": 100,
     "type_body_font": "inter_n4",
     "body_scale": 100,
@@ -25,7 +25,7 @@
     "animations_hover_elements": "default",
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 30,
-    "buttons_radius": 40,
+    "buttons_radius": 0,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 0,
@@ -174,44 +174,44 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#5d5144",
-          "button": "#c2945d",
+          "text": "#000000",
+          "button": "#000000",
           "button_label": "#ffffff",
-          "secondary_button_label": "#5d5144",
-          "shadow": "#5d5144"
+          "secondary_button_label": "#000000",
+          "shadow": "#000000"
         }
       },
       "scheme-2": {
         "settings": {
-          "background": "#c2945d",
+          "background": "#c25d5d",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
-          "button_label": "#c2945d",
+          "button_label": "#c25d5d",
           "secondary_button_label": "#ffffff",
-          "shadow": "#5d5144"
+          "shadow": "#000000"
         }
       },
       "scheme-3": {
         "settings": {
-          "background": "#f9f3ec",
+          "background": "#f4f4f4",
           "background_gradient": "",
-          "text": "#5d5144",
-          "button": "#c2945d",
+          "text": "#000000",
+          "button": "#000000",
           "button_label": "#ffffff",
-          "secondary_button_label": "#c2945d",
-          "shadow": "#5d5144"
+          "secondary_button_label": "#000000",
+          "shadow": "#000000"
         }
       },
       "scheme-4": {
         "settings": {
-          "background": "#594b3c",
+          "background": "#000000",
           "background_gradient": "",
-          "text": "#f4f1f0",
-          "button": "#c2945d",
-          "button_label": "#ffffff",
+          "text": "#ffffff",
+          "button": "#ffffff",
+          "button_label": "#000000",
           "secondary_button_label": "#ffffff",
-          "shadow": "#5d5144"
+          "shadow": "#000000"
         }
       },
       "scheme-5": {
