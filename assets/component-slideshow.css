@@ -27,9 +27,6 @@ slideshow-component .slideshow.banner {
   max-width: 54.5rem;
 }
 
-.slideshow__text.banner__box .top-heading {
-  margin-bottom: 0px;
-}
 
 .slideshow__text>* {
   max-width: 100%;
@@ -354,14 +351,13 @@ slideshow-component:not(.page-width) .slider-buttons {
 }
 
 .slideshow__slide .slideshow__text h2 {
-  letter-spacing: -0.02em;
-  line-height: 1.15;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
 }
 
 .slideshow__slide .slideshow__text .banner__text p {
-  font-size: 1.4em;
+  font-size: 2em;
   line-height: 1.2;
-  font-weight: 300 !important;  
   color: rgb(var(--color-foreground)) !important;
 }
 
