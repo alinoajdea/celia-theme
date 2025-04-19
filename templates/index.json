@@ -15,7 +15,6 @@
         "slide1": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/hero11.jpg",
             "text_background_color": "rgba(0,0,0,0)",
             "text_above_heading": "The art of style",
             "heading": "Redefining Modern Feminine <em>Fashion</em>",
@@ -36,7 +35,6 @@
         "slide2": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/he2.png",
             "text_background_color": "rgba(0,0,0,0)",
             "text_above_heading": "Absolute comfort",
             "heading": "Light, confortable summer <em>outfits</em>",
@@ -57,7 +55,6 @@
         "slide_wXDWYG": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/he3.png",
             "text_background_color": "rgba(0,0,0,0)",
             "text_above_heading": "Chic & refined",
             "heading": "Smart looks for busy days at the <em>office</em>",
@@ -100,19 +97,72 @@
         "accessibility_info": "Slideshow of new products"
       }
     },
-    "rolling_text_d6Xh9k": {
-      "type": "rolling-text",
-      "custom_css": [],
+    "featured_brands_aLTaNe": {
+      "type": "featured-brands",
+      "blocks": {
+        "brand_nkCxxH": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "Guess",
+            "brand_link": "shopify://collections/guess"
+          }
+        },
+        "brand_UjkKQm": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "",
+            "brand_link": "shopify://collections/gap"
+          }
+        },
+        "brand_98cDmk": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "",
+            "brand_link": "shopify://collections/boss"
+          }
+        },
+        "brand_yFGdyc": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "",
+            "brand_link": "shopify://collections/esprit"
+          }
+        },
+        "brand_G9wHeX": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "",
+            "brand_link": "shopify://collections/calvin-klein"
+          }
+        },
+        "brand_YxRHC3": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "",
+            "brand_link": "shopify://collections/mango"
+          }
+        },
+        "brand_6enjd9": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "",
+            "brand_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "brand_nkCxxH",
+        "brand_UjkKQm",
+        "brand_98cDmk",
+        "brand_yFGdyc",
+        "brand_G9wHeX",
+        "brand_YxRHC3",
+        "brand_6enjd9"
+      ],
       "settings": {
-        "text_content": "SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION",
-        "color_scheme": "",
-        "text_color": "#cf924c",
-        "background_color": "#ffffff",
-        "font_size": 50,
-        "line_height": 50,
-        "scroll_speed": 300,
-        "padding_top": 60,
-        "padding_bottom": 12
+        "title": "",
+        "padding_top": 70,
+        "padding_bottom": 70
       }
     },
     "multicolumn": {
@@ -121,7 +171,6 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/1.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -131,7 +180,6 @@
         "column_mUJHVm": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/4.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -141,7 +189,6 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/2.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -151,7 +198,6 @@
         "column_j3hXUB": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/3.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -218,7 +264,6 @@
         "feature_HDQcMh": {
           "type": "feature",
           "settings": {
-            "icon_image": "shopify://shop_images/dress_cfebaf46-ec87-452c-afd5-64ae6e56e956.png",
             "title": "Modern Elegance",
             "description": "Outfits designed to illuminate your beauty with unmatched quality."
           }
@@ -226,7 +271,6 @@
         "feature_ydUbCU": {
           "type": "feature",
           "settings": {
-            "icon_image": "shopify://shop_images/leaf1_ecd95084-7331-43f9-a4a6-f8d7b244c7c0.png",
             "title": "Sustainable Fashion",
             "description": "Eco-friendly fabrics combine comfort, quality, and beauty."
           }
@@ -234,7 +278,6 @@
         "feature_AGTiqm": {
           "type": "feature",
           "settings": {
-            "icon_image": "shopify://shop_images/check_3a01fa42-cc6e-4bde-9bbf-e63cf62d13f7.png",
             "title": "Trusted Brands",
             "description": "Renowned labels ensure premium quality and reliable fashion."
           }
@@ -242,7 +285,6 @@
         "feature_F63xNM": {
           "type": "feature",
           "settings": {
-            "icon_image": "shopify://shop_images/bag_aaab5216-c75f-457f-8459-206b72b8f859.png",
             "title": "Excellent Value",
             "description": "Shop a curated selection of trendy outfits at prices you’ll love."
           }
@@ -265,6 +307,21 @@
         "icon_size": 45,
         "padding_top": 80,
         "padding_bottom": 80
+      }
+    },
+    "rolling_text_d6Xh9k": {
+      "type": "rolling-text",
+      "custom_css": [],
+      "settings": {
+        "text_content": "SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION",
+        "color_scheme": "",
+        "text_color": "#cf924c",
+        "background_color": "#ffffff",
+        "font_size": 50,
+        "line_height": 50,
+        "scroll_speed": 300,
+        "padding_top": 60,
+        "padding_bottom": 12
       }
     },
     "collection_list_Paxe6F": {
@@ -317,81 +374,6 @@
         "padding_bottom": 80
       }
     },
-    "featured_brands_aLTaNe": {
-      "type": "featured-brands",
-      "blocks": {
-        "brand_nkCxxH": {
-          "type": "brand",
-          "settings": {
-            "brand_logo": "shopify://shop_images/gs-logo.png",
-            "brand_name": "Guess",
-            "brand_link": "shopify://collections/guess"
-          }
-        },
-        "brand_UjkKQm": {
-          "type": "brand",
-          "settings": {
-            "brand_logo": "shopify://shop_images/gap-logo.png",
-            "brand_name": "",
-            "brand_link": "shopify://collections/gap"
-          }
-        },
-        "brand_98cDmk": {
-          "type": "brand",
-          "settings": {
-            "brand_logo": "shopify://shop_images/boss-logo.png",
-            "brand_name": "",
-            "brand_link": "shopify://collections/boss"
-          }
-        },
-        "brand_yFGdyc": {
-          "type": "brand",
-          "settings": {
-            "brand_logo": "shopify://shop_images/es-logo.png",
-            "brand_name": "",
-            "brand_link": "shopify://collections/esprit"
-          }
-        },
-        "brand_G9wHeX": {
-          "type": "brand",
-          "settings": {
-            "brand_logo": "shopify://shop_images/ck-logo.png",
-            "brand_name": "",
-            "brand_link": "shopify://collections/calvin-klein"
-          }
-        },
-        "brand_YxRHC3": {
-          "type": "brand",
-          "settings": {
-            "brand_logo": "shopify://shop_images/mango-logo.png",
-            "brand_name": "",
-            "brand_link": "shopify://collections/mango"
-          }
-        },
-        "brand_6enjd9": {
-          "type": "brand",
-          "settings": {
-            "brand_logo": "shopify://shop_images/pj-logo.png",
-            "brand_name": "",
-            "brand_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "brand_nkCxxH",
-        "brand_UjkKQm",
-        "brand_98cDmk",
-        "brand_yFGdyc",
-        "brand_G9wHeX",
-        "brand_YxRHC3",
-        "brand_6enjd9"
-      ],
-      "settings": {
-        "title": "Shop Your Favorite Brands",
-        "padding_top": 10,
-        "padding_bottom": 70
-      }
-    },
     "countdown_offer_jcVBq3": {
       "type": "countdown-offer",
       "settings": {
@@ -404,7 +386,6 @@
         "seconds_label": "SECONDS",
         "button_text": "Shop Now",
         "shop_now_link": "shopify://collections/all",
-        "image": "shopify://shop_images/countdown-offer.jpg",
         "image_alt_text": "Limited time offer",
         "countdown_date": "2025-06-06T23:59:59",
         "background_color": "#f9f3ec",
@@ -455,7 +436,7 @@
         "video_opacity": 30,
         "enable_text_overlay": true,
         "overlay_top_heading": "Our mission",
-        "overlay_heading": "EMPOWERING <i>WOMEN</i>⠀THROUGH CONFIDENCE AND <i>BEAUTY</i>",
+        "overlay_heading": "EMPOWERING WOMEN⠀THROUGH CONFIDENCE AND BEAUTY",
         "overlay_subheading": "Embrace your individuality and celebrate your own unique style. Fashion is not just about what you wear, it's about how it makes you feel.",
         "overlay_button_text": "View collections",
         "overlay_button_link": "shopify://collections",
@@ -525,7 +506,6 @@
         "review_TcdHja": {
           "type": "review",
           "settings": {
-            "image": "shopify://shop_images/t02.jpg",
             "name": "Emily James",
             "review_text": "\"Incredible variety of styles and options! I easily found what I needed for every occasion. Convenient, reliable, and enjoyable experience!\"",
             "rating": "5"
@@ -534,7 +514,6 @@
         "review_wR4jEk": {
           "type": "review",
           "settings": {
-            "image": "shopify://shop_images/t002.jpg",
             "name": "Dana Miller",
             "review_text": "\"The styles are so trendy and versatile! Everything I’ve ordered fits perfectly and looks exactly as pictured. Truly love shopping here!\"",
             "rating": "5"
@@ -543,7 +522,6 @@
         "review_JNyUhQ": {
           "type": "review",
           "settings": {
-            "image": "shopify://shop_images/t03.jpg",
             "name": "Maya Pratt",
             "review_text": "\"Shopping here is such a breeze. The quality is consistent, the designs are stylish, and delivery is always fast. Highly recommended!\"",
             "rating": "5"
@@ -655,12 +633,12 @@
   },
   "order": [
     "slideshow",
-    "rolling_text_d6Xh9k",
+    "featured_brands_aLTaNe",
     "multicolumn",
     "featured_collection",
     "feature_icons_pVyXBT",
+    "rolling_text_d6Xh9k",
     "collection_list_Paxe6F",
-    "featured_brands_aLTaNe",
     "countdown_offer_jcVBq3",
     "featured_collection_bNQnMK",
     "video_TYPEtx",
