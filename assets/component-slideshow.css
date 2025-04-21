@@ -349,15 +349,13 @@ slideshow-component:not(.page-width) .slider-buttons {
   padding: 0rem 0 6rem;
 }
 
+.slideshow__slide .slideshow__text p.top-heading {
+  font-size: 1.7em;
+}
+
 .slideshow__slide .slideshow__text h2 {
   letter-spacing: -0.03em !important;
   line-height: 1.1;
-}
-
-.slideshow__slide .slideshow__text .banner__text p {
-  font-size: 1.7em;
-  line-height: 1.2;
-  color: rgb(var(--color-foreground)) !important;
 }
 
 .slideshow__slide .slideshow__text .banner__buttons {
