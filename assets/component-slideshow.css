@@ -350,7 +350,7 @@ slideshow-component:not(.page-width) .slider-buttons {
 }
 
 .slideshow__slide .slideshow__text p.top-heading {
-  font-size: 1.7em;
+  margin-bottom: 5px;
 }
 
 .slideshow__slide .slideshow__text h2 {
