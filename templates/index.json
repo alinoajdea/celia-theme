@@ -38,7 +38,7 @@
           "settings": {
             "image": "shopify://shop_images/hero-big-png.png",
             "text_background_color": "rgba(0,0,0,0)",
-            "text_above_heading": "Absolute comfort",
+            "text_above_heading": "Supreme comfort",
             "heading": "Light & Modern",
             "heading_size": "hxl",
             "heading_transform": "uppercase",
@@ -59,7 +59,7 @@
           "settings": {
             "image": "shopify://shop_images/celia-hero22.png",
             "text_background_color": "rgba(0,0,0,0)",
-            "text_above_heading": "Hot  & sophisticated",
+            "text_above_heading": "Sophisticated",
             "heading": "Party Dresses",
             "heading_size": "hxl",
             "heading_transform": "uppercase",
