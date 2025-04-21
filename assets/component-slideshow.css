@@ -254,6 +254,7 @@ slideshow-component:not(.page-width) .slider-buttons {
   padding: 0 5rem 12px;
   font-family: var(--font-body-family); 
   font-size: 1.6rem;
+  color: #fff;
 }
 
 @media screen and (max-width: 749px) {
