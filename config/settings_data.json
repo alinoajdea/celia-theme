@@ -9,8 +9,8 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/logo-diora-boutique.png",
-    "logo_width": 100,
+    "logo": "shopify://shop_images/Logo_Celia_Boutique.png",
+    "logo_width": 90,
     "type_top_heading_font_picker": "inter_n5",
     "top_heading_custom_font_family": "",
     "top_heading_custom_font_url": "",
@@ -117,7 +117,7 @@
     "brand_headline": "",
     "brand_description": "<p>Celia Fashion is a stylish, modern Shopify theme designed for fashion retailers and more.</p>",
     "brand_image": "shopify://shop_images/Logo_Celia_Boutique.png",
-    "brand_image_width": 100,
+    "brand_image_width": 95,
     "social_facebook_link": "#",
     "social_instagram_link": "#",
     "social_youtube_link": "",
