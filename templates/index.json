@@ -100,6 +100,118 @@
         "accessibility_info": "Slideshow of new products"
       }
     },
+    "rolling_text_d6Xh9k": {
+      "type": "rolling-text",
+      "custom_css": [],
+      "settings": {
+        "text_content": "SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION",
+        "color_scheme": "",
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "font_size": 72,
+        "line_height": 72,
+        "scroll_speed": 300,
+        "padding_top": 64,
+        "padding_bottom": 12
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/beach"
+          }
+        },
+        "column_mUJHVm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/walk"
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/party"
+          }
+        },
+        "column_j3hXUB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/office"
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column_mUJHVm",
+        "column2",
+        "column_j3hXUB"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "top_heading": "New arivals",
+        "title": "ALWAYS BE <em>STUNNING</em>",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-in",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 100
+      }
+    },
     "featured_brands_aLTaNe": {
       "type": "featured-brands",
       "blocks": {
@@ -175,103 +287,6 @@
         "padding_bottom": 50
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/1.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "shopify://collections/beach"
-          }
-        },
-        "column_mUJHVm": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/3.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "shopify://collections/walk"
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/2.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "shopify://collections/party"
-          }
-        },
-        "column_j3hXUB": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/4.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "shopify://collections/office"
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column_mUJHVm",
-        "column2",
-        "column_j3hXUB"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 20,
-        "padding_bottom": 12
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "custom_css": [],
-      "settings": {
-        "top_heading": "New arivals",
-        "title": "ALWAYS BE <em>STUNNING</em>",
-        "heading_size": "h0",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "new-in",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 100
-      }
-    },
     "feature_icons_pVyXBT": {
       "type": "feature-icons",
       "blocks": {
@@ -321,21 +336,6 @@
         "icon_size": 45,
         "padding_top": 80,
         "padding_bottom": 80
-      }
-    },
-    "rolling_text_d6Xh9k": {
-      "type": "rolling-text",
-      "custom_css": [],
-      "settings": {
-        "text_content": "SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION⠀⠀⠀SHOP BY OCCASION",
-        "color_scheme": "",
-        "text_color": "#cf924c",
-        "background_color": "#ffffff",
-        "font_size": 50,
-        "line_height": 50,
-        "scroll_speed": 300,
-        "padding_top": 60,
-        "padding_bottom": 12
       }
     },
     "collection_list_Paxe6F": {
@@ -647,11 +647,11 @@
   },
   "order": [
     "slideshow",
-    "featured_brands_aLTaNe",
-    "featured_collection",
-    "multicolumn",
-    "feature_icons_pVyXBT",
     "rolling_text_d6Xh9k",
+    "multicolumn",
+    "featured_collection",
+    "featured_brands_aLTaNe",
+    "feature_icons_pVyXBT",
     "collection_list_Paxe6F",
     "countdown_offer_jcVBq3",
     "featured_collection_bNQnMK",
