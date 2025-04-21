@@ -373,7 +373,7 @@ slideshow-component:not(.page-width) .slider-buttons {
   font-weight: 500;
   line-height: 1;
   background-color: #fff;
-  color: rgb(var(--color-body));
+  color: rgb(var(--color-foreground));
 }
 
 /* Responsive Adjustments for Tablet */
