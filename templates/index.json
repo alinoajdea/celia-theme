@@ -181,7 +181,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/enkiduro_httpss.mj.runhediAiEugxE_httpss.mj.runWiSkWJF47Vo_ht_19b019c7-b5a6-4bd1-bb17-d1a37959ceaa_1.png",
+            "image": "shopify://shop_images/1.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -191,6 +191,7 @@
         "column_mUJHVm": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/3.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -200,6 +201,7 @@
         "column2": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/2.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -209,6 +211,7 @@
         "column_j3hXUB": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/4.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -645,8 +648,8 @@
   "order": [
     "slideshow",
     "featured_brands_aLTaNe",
-    "multicolumn",
     "featured_collection",
+    "multicolumn",
     "feature_icons_pVyXBT",
     "rolling_text_d6Xh9k",
     "collection_list_Paxe6F",
