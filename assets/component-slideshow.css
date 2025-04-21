@@ -372,6 +372,7 @@ slideshow-component:not(.page-width) .slider-buttons {
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
+  background-color: #fff;
 }
 
 /* Responsive Adjustments for Tablet */
