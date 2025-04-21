@@ -3612,9 +3612,7 @@ details-disclosure>details {
 }
 
 .top-heading {
-  font-family: var(--font-body-family);
   font-style: var(--font-body-style);
-  font-weight: 500;
   font-size: 1.7rem;
   line-height: 1.2;
   color: rgb(var(--color-button));
