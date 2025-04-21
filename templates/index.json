@@ -36,9 +36,10 @@
         "slide2": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/hero-big-png.png",
             "text_background_color": "rgba(0,0,0,0)",
             "text_above_heading": "Absolute comfort",
-            "heading": "Light, confortable summer <em>outfits</em>",
+            "heading": "Light & Modern",
             "heading_size": "hxl",
             "heading_transform": "uppercase",
             "subheading": "Styles for warm days and cool nights.",
@@ -56,13 +57,14 @@
         "slide_wXDWYG": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/celia-hero22.png",
             "text_background_color": "rgba(0,0,0,0)",
-            "text_above_heading": "Chic & refined",
-            "heading": "Smart looks for busy days at the <em>office</em>",
+            "text_above_heading": "Hot  & sophisticated",
+            "heading": "Party Dresses",
             "heading_size": "hxl",
             "heading_transform": "uppercase",
-            "subheading": "From work-ready to weekend vibes.",
-            "button_label": "Shop office",
+            "subheading": "Weekend vibes and good times.",
+            "button_label": "Shop dresses",
             "link": "shopify://collections/tops",
             "button_style_secondary": false,
             "box_align": "middle-left",
