@@ -212,13 +212,63 @@
         "padding_bottom": 100
       }
     },
+    "collection_list_Paxe6F": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_Rwtc4e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "featured_collection_dwnEBX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tops"
+          }
+        },
+        "featured_collection_7wJYFj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "trousers"
+          }
+        },
+        "featured_collection_qjFEze": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shirts"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_Rwtc4e",
+        "featured_collection_dwnEBX",
+        "featured_collection_7wJYFj",
+        "featured_collection_qjFEze"
+      ],
+      "custom_css": [],
+      "settings": {
+        "top_heading": "Featured collections",
+        "title": "MAKE A GREAT  <em>IMPRESSION</em>",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "layout_style": "fancy",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-3",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 92,
+        "padding_bottom": 80
+      }
+    },
     "featured_brands_aLTaNe": {
       "type": "featured-brands",
       "blocks": {
         "brand_nkCxxH": {
           "type": "brand",
           "settings": {
-            "brand_logo": "shopify://shop_images/gs-logo.png",
+            "brand_logo": "shopify://shop_images/gs-logo_db4deca4-ef54-4632-ae66-3a2b267092ca.png",
             "brand_name": "Guess",
             "brand_link": "shopify://collections/guess"
           }
@@ -226,7 +276,7 @@
         "brand_UjkKQm": {
           "type": "brand",
           "settings": {
-            "brand_logo": "shopify://shop_images/gap-logo.png",
+            "brand_logo": "shopify://shop_images/gap-logo_ae841697-d80b-40b9-82f2-167beee42f55.png",
             "brand_name": "",
             "brand_link": "shopify://collections/gap"
           }
@@ -234,7 +284,7 @@
         "brand_98cDmk": {
           "type": "brand",
           "settings": {
-            "brand_logo": "shopify://shop_images/boss-logo.png",
+            "brand_logo": "shopify://shop_images/boss-logo_40dd5224-6373-4087-97e1-0eaaa7d6bbfd.png",
             "brand_name": "",
             "brand_link": "shopify://collections/boss"
           }
@@ -242,7 +292,7 @@
         "brand_yFGdyc": {
           "type": "brand",
           "settings": {
-            "brand_logo": "shopify://shop_images/es-logo.png",
+            "brand_logo": "shopify://shop_images/es-logo_484c77e1-5d06-4ba0-b339-5bf918e863d5.png",
             "brand_name": "",
             "brand_link": "shopify://collections/esprit"
           }
@@ -250,7 +300,7 @@
         "brand_G9wHeX": {
           "type": "brand",
           "settings": {
-            "brand_logo": "shopify://shop_images/ck-logo.png",
+            "brand_logo": "shopify://shop_images/ck-logo_9ae6b268-15a8-46fd-8057-31cf5a664922.png",
             "brand_name": "",
             "brand_link": "shopify://collections/calvin-klein"
           }
@@ -258,7 +308,7 @@
         "brand_YxRHC3": {
           "type": "brand",
           "settings": {
-            "brand_logo": "shopify://shop_images/mango-logo.png",
+            "brand_logo": "shopify://shop_images/mango-logo_a8c2aaf7-ecbd-4641-9e97-1dbaa33b8dea.png",
             "brand_name": "",
             "brand_link": "shopify://collections/mango"
           }
@@ -266,7 +316,7 @@
         "brand_6enjd9": {
           "type": "brand",
           "settings": {
-            "brand_logo": "shopify://shop_images/pj-logo.png",
+            "brand_logo": "shopify://shop_images/pj-logo_78d260f4-96f3-4449-a8fb-c67126785b78.png",
             "brand_name": "",
             "brand_link": ""
           }
@@ -282,7 +332,7 @@
         "brand_6enjd9"
       ],
       "settings": {
-        "title": "",
+        "title": "SHOP BY BRAND",
         "padding_top": 50,
         "padding_bottom": 50
       }
@@ -327,64 +377,14 @@
       ],
       "custom_css": [],
       "settings": {
-        "subheading": "",
+        "subheading": "More than fashion",
         "heading": "WHY CHOOSE DIORA",
         "mobile_columns": "2",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
         "title_font_size": 18,
         "description_font_size": 16,
         "icon_size": 45,
         "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
-    "collection_list_Paxe6F": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_Rwtc4e": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dresses"
-          }
-        },
-        "featured_collection_dwnEBX": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "tops"
-          }
-        },
-        "featured_collection_7wJYFj": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "trousers"
-          }
-        },
-        "featured_collection_qjFEze": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "shirts"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_Rwtc4e",
-        "featured_collection_dwnEBX",
-        "featured_collection_7wJYFj",
-        "featured_collection_qjFEze"
-      ],
-      "custom_css": [],
-      "settings": {
-        "top_heading": "Featured collections",
-        "title": "MAKE A GREAT  <em>IMPRESSION</em>",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "layout_style": "fancy",
-        "columns_desktop": 4,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 92,
         "padding_bottom": 80
       }
     },
@@ -650,9 +650,9 @@
     "rolling_text_d6Xh9k",
     "multicolumn",
     "featured_collection",
+    "collection_list_Paxe6F",
     "featured_brands_aLTaNe",
     "feature_icons_pVyXBT",
-    "collection_list_Paxe6F",
     "countdown_offer_jcVBq3",
     "featured_collection_bNQnMK",
     "video_TYPEtx",
