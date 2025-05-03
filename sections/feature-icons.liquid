@@ -8,8 +8,8 @@
     ">
     {% if section.settings.subheading != blank or section.settings.heading != blank %}
       <div class="icons-header">
-        <h3 class="subheading">{{ section.settings.subheading }}</h3>
-        <h1 class="heading">{{ section.settings.heading }}</h1>
+        <h3 class="top-heading scroll-trigger animate--slide-in">{{ section.settings.subheading }}</h3>
+        <h2 class="heading">{{ section.settings.heading }}</h2>
       </div>
     {% endif %}
     <div class="feature-icons-container columns--{{ section.settings.mobile_columns }}">
