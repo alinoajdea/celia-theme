@@ -218,28 +218,32 @@
         "feature_HDQcMh": {
           "type": "feature",
           "settings": {
-            "title": "Modern Elegance",
+            "icon_image": "shopify://shop_images/dress.png",
+            "title": "MODERN ELEGANCE",
             "description": "Outfits designed to illuminate your beauty with unmatched quality."
           }
         },
         "feature_ydUbCU": {
           "type": "feature",
           "settings": {
-            "title": "Sustainable Fashion",
+            "icon_image": "shopify://shop_images/leaf1.png",
+            "title": "SUSTAINABLE FASHION",
             "description": "Eco-friendly fabrics combine comfort, quality, and beauty."
           }
         },
         "feature_AGTiqm": {
           "type": "feature",
           "settings": {
-            "title": "Trusted Brands",
+            "icon_image": "shopify://shop_images/check.png",
+            "title": "TRUSTED BRANDS",
             "description": "Renowned labels ensure premium quality and reliable fashion."
           }
         },
         "feature_F63xNM": {
           "type": "feature",
           "settings": {
-            "title": "Excellent Value",
+            "icon_image": "shopify://shop_images/bag.png",
+            "title": "EXCELLENT VALUE",
             "description": "Shop a curated selection of trendy outfits at prices you’ll love."
           }
         }
@@ -256,9 +260,9 @@
         "heading": "WHY CHOOSE DIORA",
         "mobile_columns": "2",
         "color_scheme": "scheme-4",
-        "title_font_size": 20,
+        "title_font_size": 24,
         "description_font_size": 16,
-        "icon_size": 45,
+        "icon_size": 55,
         "padding_top": 80,
         "padding_bottom": 80
       }
