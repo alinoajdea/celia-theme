@@ -32,17 +32,6 @@
   margin-bottom: 6rem;
 }
 
-.feature-icons-section .subheading {
-  font-family: var(--font-body-family);
-  font-style: var(--font-body-style);
-  font-weight: var(--font-body-weight);
-  font-size: 1.6rem;
-  line-height: 1.1;
-  color: rgb(var(--color-button));
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 0;
-}
 
 .feature-icons-section .heading {
   color: rgb(var(--color-foreground));      
