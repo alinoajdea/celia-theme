@@ -13,25 +13,6 @@
   "sections": {
     "17405199146f76efea": {
       "type": "apps",
-      "blocks": {
-        "instafeed_app_block_9PQLPH": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "FOLLOW US @DIORABOUTIQUE",
-            "title_color": "",
-            "title_size": 0,
-            "alignment": "center",
-            "margin_top": 10,
-            "margin_bottom": 10,
-            "background_color": "",
-            "feed_id": "",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_9PQLPH"
-      ],
       "settings": {
         "include_margins": false
       }
@@ -43,7 +24,7 @@
           "type": "feature",
           "settings": {
             "icon_image": "shopify://shop_images/w-box.png",
-            "title": "Free Shipping",
+            "title": "FREE SHIPPING",
             "description": ""
           }
         },
@@ -51,7 +32,7 @@
           "type": "feature",
           "settings": {
             "icon_image": "shopify://shop_images/w-returns.png",
-            "title": "Easy Returns",
+            "title": "EASY RETURNS",
             "description": ""
           }
         },
@@ -59,7 +40,7 @@
           "type": "feature",
           "settings": {
             "icon_image": "shopify://shop_images/w-pay.png",
-            "title": "Secure Payments",
+            "title": "SECURE PAYMENTS",
             "description": ""
           }
         },
@@ -67,7 +48,7 @@
           "type": "feature",
           "settings": {
             "icon_image": "shopify://shop_images/w-support.png",
-            "title": "Customer Support",
+            "title": "CUSTOMER SUPPORT",
             "description": ""
           }
         }
@@ -83,11 +64,11 @@
         "heading": "",
         "mobile_columns": "2",
         "color_scheme": "scheme-4",
-        "title_font_size": 14,
+        "title_font_size": 18,
         "description_font_size": 12,
-        "icon_size": 35,
-        "padding_top": 32,
-        "padding_bottom": 32
+        "icon_size": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "footer": {
@@ -110,14 +91,14 @@
           "type": "link_list",
           "settings": {
             "heading": "BRANDS",
-            "menu": "footer-brands-menu"
+            "menu": ""
           }
         },
         "footer-0": {
           "type": "link_list",
           "settings": {
             "heading": "QUICK LINKS",
-            "menu": "footer-quick-links"
+            "menu": ""
           }
         }
       },
