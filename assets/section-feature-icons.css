@@ -32,7 +32,11 @@
   margin-bottom: 6rem;
 }
 
-
+.feature-icons-section .heading { 
+  margin-top: 0;
+  line-height: 1.1;
+  text-align: center;
+}
 
 @media screen and (min-width: 750px) and (max-width: 1023px) {
   .feature-icons-section .icons-header {
