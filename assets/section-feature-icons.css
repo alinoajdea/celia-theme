@@ -20,9 +20,7 @@
 }
 
 .feature-icons-section .feature-icons-container .feature-icon-item .feature-icon-title {
-  margin: 0;  
-  font-family: var(--font-body-family);
-  font-weight: 700;
+  margin: 0;
 }
 
 .feature-icons-section .feature-icons-container .feature-icon-item .feature-icon-description {
