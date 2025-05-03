@@ -212,6 +212,57 @@
         "padding_bottom": 100
       }
     },
+    "feature_icons_pVyXBT": {
+      "type": "feature-icons",
+      "blocks": {
+        "feature_HDQcMh": {
+          "type": "feature",
+          "settings": {
+            "title": "Modern Elegance",
+            "description": "Outfits designed to illuminate your beauty with unmatched quality."
+          }
+        },
+        "feature_ydUbCU": {
+          "type": "feature",
+          "settings": {
+            "title": "Sustainable Fashion",
+            "description": "Eco-friendly fabrics combine comfort, quality, and beauty."
+          }
+        },
+        "feature_AGTiqm": {
+          "type": "feature",
+          "settings": {
+            "title": "Trusted Brands",
+            "description": "Renowned labels ensure premium quality and reliable fashion."
+          }
+        },
+        "feature_F63xNM": {
+          "type": "feature",
+          "settings": {
+            "title": "Excellent Value",
+            "description": "Shop a curated selection of trendy outfits at prices you’ll love."
+          }
+        }
+      },
+      "block_order": [
+        "feature_HDQcMh",
+        "feature_ydUbCU",
+        "feature_AGTiqm",
+        "feature_F63xNM"
+      ],
+      "custom_css": [],
+      "settings": {
+        "subheading": "More than fashion",
+        "heading": "WHY CHOOSE DIORA",
+        "mobile_columns": "2",
+        "color_scheme": "scheme-4",
+        "title_font_size": 20,
+        "description_font_size": 16,
+        "icon_size": 45,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "collection_list_Paxe6F": {
       "type": "collection-list",
       "blocks": {
@@ -335,57 +386,6 @@
         "title": "SHOP BY BRAND",
         "padding_top": 50,
         "padding_bottom": 50
-      }
-    },
-    "feature_icons_pVyXBT": {
-      "type": "feature-icons",
-      "blocks": {
-        "feature_HDQcMh": {
-          "type": "feature",
-          "settings": {
-            "title": "Modern Elegance",
-            "description": "Outfits designed to illuminate your beauty with unmatched quality."
-          }
-        },
-        "feature_ydUbCU": {
-          "type": "feature",
-          "settings": {
-            "title": "Sustainable Fashion",
-            "description": "Eco-friendly fabrics combine comfort, quality, and beauty."
-          }
-        },
-        "feature_AGTiqm": {
-          "type": "feature",
-          "settings": {
-            "title": "Trusted Brands",
-            "description": "Renowned labels ensure premium quality and reliable fashion."
-          }
-        },
-        "feature_F63xNM": {
-          "type": "feature",
-          "settings": {
-            "title": "Excellent Value",
-            "description": "Shop a curated selection of trendy outfits at prices you’ll love."
-          }
-        }
-      },
-      "block_order": [
-        "feature_HDQcMh",
-        "feature_ydUbCU",
-        "feature_AGTiqm",
-        "feature_F63xNM"
-      ],
-      "custom_css": [],
-      "settings": {
-        "subheading": "More than fashion",
-        "heading": "WHY CHOOSE DIORA",
-        "mobile_columns": "2",
-        "color_scheme": "scheme-4",
-        "title_font_size": 18,
-        "description_font_size": 16,
-        "icon_size": 45,
-        "padding_top": 80,
-        "padding_bottom": 80
       }
     },
     "countdown_offer_jcVBq3": {
@@ -650,9 +650,9 @@
     "rolling_text_d6Xh9k",
     "multicolumn",
     "featured_collection",
+    "feature_icons_pVyXBT",
     "collection_list_Paxe6F",
     "featured_brands_aLTaNe",
-    "feature_icons_pVyXBT",
     "countdown_offer_jcVBq3",
     "featured_collection_bNQnMK",
     "video_TYPEtx",
