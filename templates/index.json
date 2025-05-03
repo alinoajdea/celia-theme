@@ -106,7 +106,7 @@
       "settings": {
         "text_content": "SHOP BY OCCASION⠀⠀SHOP BY OCCASION⠀⠀SHOP BY OCCASION⠀⠀SHOP BY OCCASION⠀⠀SHOP BY OCCASION⠀⠀SHOP BY OCCASION⠀⠀SHOP BY OCCASION⠀⠀",
         "color_scheme": "",
-        "text_color": "#ff4545",
+        "text_color": "#000000",
         "background_color": "#ffffff",
         "font_size": 72,
         "line_height": 72,
@@ -187,7 +187,7 @@
       "custom_css": [],
       "settings": {
         "top_heading": "New arivals",
-        "title": "ALWAYS BE <em>STUNNING</em>",
+        "title": "ALWAYS BE STUNNING",
         "heading_size": "h0",
         "description": "",
         "show_description": false,
@@ -304,7 +304,7 @@
       "custom_css": [],
       "settings": {
         "top_heading": "Featured collections",
-        "title": "MAKE A GREAT  <em>IMPRESSION</em>",
+        "title": "MAKE A GREAT IMPRESSION",
         "heading_size": "h1",
         "image_ratio": "square",
         "layout_style": "fancy",
