@@ -305,7 +305,7 @@
       "settings": {
         "top_heading": "Featured collections",
         "title": "MAKE A GREAT IMPRESSION",
-        "heading_size": "h1",
+        "heading_size": "h0",
         "image_ratio": "square",
         "layout_style": "fancy",
         "columns_desktop": 4,
@@ -408,8 +408,8 @@
         "image_alt_text": "Limited time offer",
         "countdown_date": "2025-09-10T23:59:59",
         "background_color": "#f4f4f4",
-        "padding_top": 92,
-        "padding_bottom": 92
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "featured_collection_bNQnMK": {
@@ -417,8 +417,8 @@
       "custom_css": [],
       "settings": {
         "top_heading": "Popular items",
-        "title": "CHECK OUT OUR <em>BESTSELLERS</em>",
-        "heading_size": "h1",
+        "title": "OUR BESTSELLERS",
+        "heading_size": "h0",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -526,6 +526,7 @@
         "review_TcdHja": {
           "type": "review",
           "settings": {
+            "image": "shopify://shop_images/t001.png",
             "name": "Emily James",
             "review_text": "\"Incredible variety of styles and options! I easily found what I needed for every occasion. Convenient, reliable, and enjoyable experience!\"",
             "rating": "5"
@@ -534,6 +535,7 @@
         "review_wR4jEk": {
           "type": "review",
           "settings": {
+            "image": "shopify://shop_images/6d13747433f4e6577dde4cd49a8c9beb.png",
             "name": "Dana Miller",
             "review_text": "\"The styles are so trendy and versatile! Everything I’ve ordered fits perfectly and looks exactly as pictured. Truly love shopping here!\"",
             "rating": "5"
@@ -542,6 +544,7 @@
         "review_JNyUhQ": {
           "type": "review",
           "settings": {
+            "image": "shopify://shop_images/t003.png",
             "name": "Maya Pratt",
             "review_text": "\"Shopping here is such a breeze. The quality is consistent, the designs are stylish, and delivery is always fast. Highly recommended!\"",
             "rating": "5"
@@ -554,10 +557,10 @@
         "review_JNyUhQ"
       ],
       "settings": {
-        "heading": "WHY CUSTOMERS LOVE US",
+        "heading": "CUSTOMERS LOVE US",
         "subheading": "Client reviews",
         "background_color": "#f4f4f4",
-        "padding_top": 92,
+        "padding_top": 100,
         "padding_bottom": 100
       }
     },
@@ -567,13 +570,13 @@
       "settings": {
         "text_content": "DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀DON'T MISS⠀⠀⠀",
         "color_scheme": "scheme-1",
-        "text_color": "#ff4545",
+        "text_color": "#000000",
         "background_color": "rgba(0,0,0,0)",
-        "font_size": 54,
-        "line_height": 54,
+        "font_size": 72,
+        "line_height": 72,
         "scroll_speed": 300,
         "padding_top": 100,
-        "padding_bottom": 12
+        "padding_bottom": 20
       }
     },
     "collage_CGLWdb": {
