@@ -30,7 +30,7 @@
         "@media (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.25rem); }}"
       ],
       "settings": {
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-5",
         "show_line_separator": false,
         "show_social": false,
         "auto_rotate": false,
