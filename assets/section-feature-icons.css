@@ -44,8 +44,8 @@
   }
  
   .feature-icons-section .feature-icon-item .feature-icon-image {
-    width: 40px !important;
-    height: 40px !important;
+    width: 48px !important;
+    height: 48px !important;
   }
   .feature-icons-section .feature-icons-container .feature-icon-item .feature-icon-description {
     font-size: 14px !important;
@@ -85,8 +85,8 @@
   }
     
   .feature-icons-section .feature-icon-item .feature-icon-image {
-    width: 36px !important;
-    height: 36px !important;
+    width: 40px !important;
+    height: 40px !important;
   }
   .feature-icons-section .feature-icons-container .feature-icon-item .feature-icon-title {
     font-size: 14px !important;
