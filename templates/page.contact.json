@@ -24,14 +24,14 @@
           "type": "text",
           "settings": {
             "text": "Contact",
-            "text_style": "subtitle"
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "heading_fMAkVi": {
           "type": "heading",
           "settings": {
-            "heading": "GET IN <em>TOUCH</em>",
-            "heading_size": "h1"
+            "heading": "GET IN TOUCH",
+            "heading_size": "h0"
           }
         }
       },
@@ -40,7 +40,8 @@
         "heading_fMAkVi"
       ],
       "settings": {
-        "image": "shopify://shop_images/contact-hero-dark.jpg",
+        "image": "shopify://shop_images/contact-hero1.jpg",
+        "image_2": "shopify://shop_images/contact-hero2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -59,7 +60,6 @@
         "feature_pwLwQB": {
           "type": "feature",
           "settings": {
-            "icon_image": "shopify://shop_images/address.png",
             "title": "Headquarters",
             "description": "123 Fashion Street, Suite 456New York, NY 10001, USA"
           }
@@ -67,7 +67,6 @@
         "feature_aTim34": {
           "type": "feature",
           "settings": {
-            "icon_image": "shopify://shop_images/hours.png",
             "title": "Working hours",
             "description": "Monday to Saturday: 9 AM – 6 PM<br>Sunday: Closed"
           }
@@ -75,7 +74,6 @@
         "feature_QGd8wp": {
           "type": "feature",
           "settings": {
-            "icon_image": "shopify://shop_images/info.png",
             "title": "Information",
             "description": "Mail: support@diora.boutique<br>Call: +1 (800) 555-1234"
           }
@@ -103,12 +101,12 @@
       "settings": {
         "text_content": "CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀CONTACT FORM⠀⠀⠀",
         "color_scheme": "",
-        "text_color": "#c2945d",
+        "text_color": "#000000",
         "background_color": "#ffffff",
-        "font_size": 50,
-        "line_height": 50,
+        "font_size": 72,
+        "line_height": 72,
         "scroll_speed": 300,
-        "padding_top": 60,
+        "padding_top": 80,
         "padding_bottom": 20
       }
     },
@@ -191,13 +189,13 @@
       "settings": {
         "caption": "",
         "heading": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_alignment": "left",
         "layout": "row",
         "color_scheme": "scheme-3",
         "container_color_scheme": "scheme-3",
         "open_first_collapsible_row": true,
-        "image": "shopify://shop_images/0_3.jpg",
+        "image": "shopify://shop_images/contact_faq.png",
         "image_ratio": "large",
         "desktop_layout": "image_first",
         "padding_top": 100,
