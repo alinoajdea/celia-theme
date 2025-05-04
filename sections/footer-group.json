@@ -13,6 +13,29 @@
   "sections": {
     "17405199146f76efea": {
       "type": "apps",
+      "blocks": {
+        "instafeed_app_block_bKGbUn": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "FOLLOW US @CELIAFASHION",
+            "title_color": "",
+            "title_size_v2": 36,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 16,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "center",
+            "link_color": "#000000",
+            "background_color": "#ffffff",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_bKGbUn"
+      ],
       "settings": {
         "include_margins": false
       }
