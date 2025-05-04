@@ -296,7 +296,7 @@ h6,
   }
 
   h4, .h4 {
-    font-size: calc(var(--font-heading-scale) * 3.2rem);
+    font-size: calc(var(--font-heading-scale) * 3.6rem);
   }
   
   h5, .h5 {
