@@ -97,6 +97,11 @@
 
 .collapsible-row-layout .accordion .accordion__content {
   padding-top: 0;
+  color: red;
+}
+
+.collapsible-row-layout .accordion .accordion__content {
+  padding-top: 0;
 }
 
 .collapsible-content summary:hover {
