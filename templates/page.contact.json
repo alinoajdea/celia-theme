@@ -60,13 +60,15 @@
         "feature_pwLwQB": {
           "type": "feature",
           "settings": {
-            "title": "Headquarters",
+            "icon_image": "shopify://shop_images/headquarters.png",
+            "title": "HEADQUARTERS",
             "description": "123 Fashion Street, Suite 456New York, NY 10001, USA"
           }
         },
         "feature_aTim34": {
           "type": "feature",
           "settings": {
+            "icon_image": "shopify://shop_images/hours.png",
             "title": "Working hours",
             "description": "Monday to Saturday: 9 AM – 6 PM<br>Sunday: Closed"
           }
@@ -74,8 +76,9 @@
         "feature_QGd8wp": {
           "type": "feature",
           "settings": {
+            "icon_image": "shopify://shop_images/contacts.png",
             "title": "Information",
-            "description": "Mail: support@diora.boutique<br>Call: +1 (800) 555-1234"
+            "description": "Mail: support@celia.fashion<br>Call: +1 (800) 555-1234"
           }
         }
       },
@@ -89,11 +92,11 @@
         "heading": "",
         "mobile_columns": "1",
         "color_scheme": "scheme-3",
-        "title_font_size": 16,
-        "description_font_size": 14,
-        "icon_size": 50,
-        "padding_top": 48,
-        "padding_bottom": 52
+        "title_font_size": 23,
+        "description_font_size": 15,
+        "icon_size": 60,
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "rolling_text_VYQfwg": {
