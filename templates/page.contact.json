@@ -69,7 +69,7 @@
           "type": "feature",
           "settings": {
             "icon_image": "shopify://shop_images/hours.png",
-            "title": "Working hours",
+            "title": "WORKING HOURS",
             "description": "Monday to Saturday: 9 AM – 6 PMSunday: Closed"
           }
         },
@@ -77,8 +77,8 @@
           "type": "feature",
           "settings": {
             "icon_image": "shopify://shop_images/contacts.png",
-            "title": "Information",
-            "description": "Mail: support@celia.fashion<br>Call: +1 (800) 555-1234"
+            "title": "INFORMATION",
+            "description": "Mail: support@celia.fashionCall: +1 (800) 555-1234"
           }
         }
       },
