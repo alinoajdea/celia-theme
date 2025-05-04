@@ -70,7 +70,7 @@
           "settings": {
             "icon_image": "shopify://shop_images/hours.png",
             "title": "Working hours",
-            "description": "Monday to Saturday: 9 AM – 6 PM<br>Sunday: Closed"
+            "description": "Monday to Saturday: 9 AM – 6 PMSunday: Closed"
           }
         },
         "feature_QGd8wp": {
@@ -95,8 +95,8 @@
         "title_font_size": 23,
         "description_font_size": 15,
         "icon_size": 60,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     },
     "rolling_text_VYQfwg": {
