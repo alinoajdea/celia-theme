@@ -114,14 +114,14 @@
           "type": "link_list",
           "settings": {
             "heading": "BRANDS",
-            "menu": ""
+            "menu": "footer-brands"
           }
         },
         "footer-0": {
           "type": "link_list",
           "settings": {
             "heading": "QUICK LINKS",
-            "menu": ""
+            "menu": "footer-links"
           }
         }
       },
