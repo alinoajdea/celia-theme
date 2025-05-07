@@ -27,11 +27,13 @@
 }
 
 .accordion__title {
+  font-family: var(--font-body-family);
   display: inline-block;
   max-width: calc(100% - 6rem);
   min-height: 1.6rem;
   margin: 0;
   word-break: break-word;
+  font-size: 18px;
 }
 
 .accordion .svg-wrapper {
