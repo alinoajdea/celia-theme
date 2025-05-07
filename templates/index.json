@@ -423,7 +423,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "bestsellers",
-        "products_to_show": 12,
+        "products_to_show": 10,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
@@ -639,7 +639,7 @@
     "featured_blog_nQMDMT": {
       "type": "featured-blog",
       "settings": {
-        "heading": "LATEST <em>ARTICLES</em>",
+        "heading": "LATEST ARTICLES",
         "heading_size": "h1",
         "blog": "news",
         "post_limit": 3,
