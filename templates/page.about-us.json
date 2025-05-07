@@ -142,7 +142,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/b002.jpg",
-            "title": "<em>DEDICATED</em> TO QUALITY",
+            "title": "DEDICATED TO QUALITY",
             "text": "<p>We prioritize high-quality fabrics and craftsmanship to ensure that every piece lasts. Our collections strive to provide comfort and durability.</p>",
             "link_label": "",
             "link": ""
@@ -152,7 +152,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/b001.jpg",
-            "title": "<em>SUSTAINABLE</em> FASHION",
+            "title": "SUSTAINABLE FASHION",
             "text": "<p>We believe in a sustainable approach to fashion, sourcing eco-friendly materials and promoting ethical methods. Our pieces are not just stylish, but conscious.</p>",
             "link_label": "",
             "link": ""
@@ -162,7 +162,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/b003.jpg",
-            "title": "<em>AFFORDABLE</em> LUXURY",
+            "title": "AFFORDABLE LUXURY",
             "text": "<p>We strive to make high-quality fashion accessible to everyone, offering luxurious designs at prices that allow you to indulge without the high-end markup.</p>",
             "link_label": "",
             "link": ""
@@ -197,7 +197,7 @@
         "caption_yxVQNV": {
           "type": "caption",
           "settings": {
-            "caption": "Core values",
+            "caption": "CORE VALUES",
             "text_style": "subtitle",
             "text_size": "large"
           }
@@ -232,6 +232,7 @@
         "button_F3eGCH"
       ],
       "settings": {
+        "image": "shopify://shop_images/about-faq.png",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
