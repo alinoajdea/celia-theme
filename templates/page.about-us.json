@@ -23,8 +23,8 @@
         "heading_zJdMeh": {
           "type": "heading",
           "settings": {
-            "heading": "ABOUT <em>DIORA</em>",
-            "heading_size": "h1"
+            "heading": "ABOUT DIORA",
+            "heading_size": "h0"
           }
         },
         "text_ic8Uhm": {
@@ -72,10 +72,10 @@
         "color_scheme": "scheme-3",
         "text_color": "#000000",
         "background_color": "#f4f4f4",
-        "font_size": 54,
-        "line_height": 60,
+        "font_size": 72,
+        "line_height": 72,
         "scroll_speed": 300,
-        "padding_top": 40,
+        "padding_top": 60,
         "padding_bottom": 12
       }
     },
@@ -93,14 +93,14 @@
         "heading_LVeLrF": {
           "type": "heading",
           "settings": {
-            "heading": "MEET THE <em>FOUNDER</em>",
+            "heading": "MEET THE FOUNDER",
             "heading_size": "h1"
           }
         },
         "text_hDtAi3": {
           "type": "text",
           "settings": {
-            "text": "<p>I created Diora Boutique to blend timeless style with modern design. My goal is to offer a sleek, effortless shopping experience for fashion lovers everywhere.</p>",
+            "text": "<p>I created Celia Fashion to blend timeless style with modern design. My goal is to offer a sleek, effortless shopping experience for fashion lovers everywhere.</p>",
             "text_style": "body"
           }
         },
@@ -120,6 +120,7 @@
         "button_63bx4r"
       ],
       "settings": {
+        "image": "shopify://shop_images/about.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -150,7 +151,7 @@
         "column_UyKr8J": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/b004.jpg",
+            "image": "shopify://shop_images/b001.jpg",
             "title": "<em>SUSTAINABLE</em> FASHION",
             "text": "<p>We believe in a sustainable approach to fashion, sourcing eco-friendly materials and promoting ethical methods. Our pieces are not just stylish, but conscious.</p>",
             "link_label": "",
@@ -160,6 +161,7 @@
         "column_rUyRRx": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/b003.jpg",
             "title": "<em>AFFORDABLE</em> LUXURY",
             "text": "<p>We strive to make high-quality fashion accessible to everyone, offering luxurious designs at prices that allow you to indulge without the high-end markup.</p>",
             "link_label": "",
@@ -173,9 +175,9 @@
         "column_rUyRRx"
       ],
       "settings": {
-        "title": "WHY IS DIORA <em>DIFFERENT?</em>",
-        "heading_size": "h1",
-        "image_width": "half",
+        "title": "WHY IS DIORA DIFFERENT?",
+        "heading_size": "h0",
+        "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
