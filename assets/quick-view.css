@@ -170,7 +170,7 @@
 }
 
 .quick-view-details .product-title {
-  font-size: 3em;
+  font-size: 2.6em;
   margin-bottom: 10px;
 }
 
@@ -297,7 +297,7 @@ a.view-full-details:hover {
 .quick-view-details .quantity-input {
     color: rgb(var(--color-foreground));
     width: 64px;
-    padding: 12px 10px;
+    padding: 14px 10px;
     font-size: 1.3rem;
     text-align: center;
     border: 1px solid #ddd;
@@ -305,7 +305,7 @@ a.view-full-details:hover {
 }
 
 .quick-view-details .add-to-cart {
-    padding: 12px 24px;
+    padding: 14px 24px;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.2;
