@@ -386,6 +386,10 @@ slideshow-component:not(.page-width) .slider-buttons {
   .slideshow__slide .slideshow__text h2 {
     font-size: 3.2em;
   }
+  .slideshow__slide .banner__buttons a {
+    padding: 20px 30px;
+    font-size: 15px;
+  }
 }
 
 /* Mobile */
@@ -407,7 +411,8 @@ slideshow-component:not(.page-width) .slider-buttons {
     margin-top: 3rem;
   }
   .slideshow__slide .banner__buttons a {
-   padding: 18px 30px;
+    padding: 18px 28px;
+    font-size: 14px;
   }
 }
 
