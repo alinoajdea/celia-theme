@@ -271,9 +271,6 @@ a.product__text {
   padding: 0 1rem;
 }
 
-.product__accordion .accordion__title {
-      font-family: var(--font-body-family);
-}
 .product .price .badge {
   margin-bottom: 0.5rem;
 }
