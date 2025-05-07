@@ -82,6 +82,14 @@
     "image_with_text_mwPEhW": {
       "type": "image-with-text",
       "blocks": {
+        "caption_cnYXRj": {
+          "type": "caption",
+          "settings": {
+            "caption": "Hello, I am Diana",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
+        },
         "heading_LVeLrF": {
           "type": "heading",
           "settings": {
@@ -106,6 +114,7 @@
         }
       },
       "block_order": [
+        "caption_cnYXRj",
         "heading_LVeLrF",
         "text_hDtAi3",
         "button_63bx4r"

@@ -336,11 +336,10 @@
 }
 
 .image-with-text__content .image-with-text__text--caption {
-    font-family: 'Calligraphic', sans-serif;
     font-style: var(--font-body-style);
     font-weight: var(--font-body-weight);
-    font-size: 4.8em;
-    line-height: 1;
+    font-size: 1.8em;
+    line-height: 1.1;
     color: rgb(var(--color-button));
     margin-top: 0;
     margin-bottom: 0;
