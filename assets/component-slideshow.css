@@ -361,6 +361,7 @@ slideshow-component:not(.page-width) .slider-buttons {
 
 .slideshow__slide .slideshow__text .banner__text p {
   font-size: 1.6em;
+  line-height: 1.2;
 }
 
 
