@@ -172,6 +172,7 @@
 .quick-view-details .product-title {
   font-size: 2.6em;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .quick-view-details p {
