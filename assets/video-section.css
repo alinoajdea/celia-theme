@@ -116,7 +116,7 @@
 
 @media screen and (max-width: 749px) {
   .video-section__media {
-    --ratio-percent: 100% !important;
+    --ratio-percent: 110% !important;
   }
   .video-section__content {
     max-width: 100%;

@@ -193,7 +193,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "new-in",
-        "products_to_show": 12,
+        "products_to_show": 10,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
