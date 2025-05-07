@@ -53,7 +53,7 @@
         "row_H4eemY": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/features-hero-header.jpg",
+            "image": "shopify://shop_images/f-hero.jpg",
             "caption": "",
             "heading": "CUSTOMIZABLE HERO SLIDER",
             "text": "<p>Easily add slides, change images, update text, and customize buttons to match your brand. Highlight three featured posts of your choice to drive engagement.</p>",
@@ -64,7 +64,7 @@
         "row_HYMWL7": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/features-mega.jpg",
+            "image": "shopify://shop_images/f-mega.jpg",
             "caption": "",
             "heading": "INTERACTIVE MEGA MENU",
             "text": "<p>We display the most important information alongside a beautiful customizable banner that enhances the browsing experience that helps customers quickly find what they love.</p>",
@@ -75,7 +75,7 @@
         "row_qaHmYp": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/features-collections.jpg",
+            "image": "shopify://shop_images/f-banners.jpg",
             "caption": "",
             "heading": "DYNAMIC COLLECTION GRID",
             "text": "<p>Introduce the <em>Fancy Grid</em> for showcasing collections - a visually engaging box style arrangement. This layout presents collections in varied box sizes, making the display more dynamic and stylish.</p>",
@@ -86,7 +86,7 @@
         "row_HUBV6Q": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/features-quick.jpg",
+            "image": "shopify://shop_images/f-quick.jpg",
             "caption": "",
             "heading": "QUICK VIEW FOR FASTER SHOPPING",
             "text": "<p>Hover over a product, and a discreet Quick View button appears, opening a sleek modal window. Shoppers can instantly see key product details, select attributes like size and color, and add items to their cart - all without leaving the page.</p>",
@@ -94,10 +94,32 @@
             "button_link": ""
           }
         },
+        "row_YbTBWt": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/f-fonts.jpg",
+            "caption": "",
+            "heading": "UPLOAD CUSTOM FONTS",
+            "text": "<p>Do you want to use fonts that are not in the Shopify font list? No problem, simply upload your font to the file library and copy - paste the link in theme settings.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_wKPKmr": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/f-fancy.jpg",
+            "caption": "",
+            "heading": "FANCY GRID FOR FEATURED COLLECTIONS",
+            "text": "<p>Showcase your most important collections in a modern and easy to use layout. Helps users pick their favorite collection with ease while maintaining a friendly  and dynamic interface.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "row_GNbaiX": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/features-reviews.jpg",
+            "image": "shopify://shop_images/f-reviews.jpg",
             "caption": "",
             "heading": "CUSTOMER REVIEWS",
             "text": "<p>Showcase authentic feedback with a beautifully designed review section that highlights real customer experiences. Each review includes an image, name, five-star rating, and a testimonial, making it easy for visitors to trust your store.</p>",
@@ -105,21 +127,10 @@
             "button_link": ""
           }
         },
-        "row_YbTBWt": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/features-scroll.jpg",
-            "caption": "",
-            "heading": "CUSTOMIZABLE SCROLLING TEXT",
-            "text": "<p>Add a dynamic touch to your store with a scrolling text banner. Easily adjust the size and customize the message to highlight promotions, announcements, or brand statements.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "row_UbzpTK": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/features-timer.jpg",
+            "image": "shopify://shop_images/f-offer.jpg",
             "caption": "",
             "heading": "LIMITED TIME OFFER COUNTDOWN TIMER",
             "text": "<p>Create urgency with a dynamic countdown timer. This section includes a bold title, compelling description, countdown display, and a CTA button, all set beside a striking image. </p>",
@@ -130,10 +141,10 @@
         "row_Uh3pk4": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/features-icons.jpg",
+            "image": "shopify://shop_images/f-icons.jpg",
             "caption": "",
             "heading": "ICONS SECTION FOR BUILDING TRUST",
-            "text": "<p>A dedicated trust section helps reassure customers by highlighting key brand values. Featuring icons, titles, and short descriptions, this section allows you to enhance credibility and build confidence for your customers.</p>",
+            "text": "<p>A dedicated trust section helps reassure customers by highlighting key brand values. Featuring icons, titles, and short descriptions, this section allows you to enhance credibility and build confidence.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -141,7 +152,7 @@
         "row_q3DmDc": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/features-collage.jpg",
+            "image": "shopify://shop_images/f-collage.jpg",
             "caption": "",
             "heading": "EXTENDED COLLAGE",
             "text": "<p>Showcase up to four products alongside a featured collection in a visually engaging grid layout. Perfect for highlighting bestsellers, seasonal must-haves, or curated looks, this section blends imagery and functionality seamlessly.</p>",
@@ -152,7 +163,7 @@
         "row_hTayMt": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/features-video.jpg",
+            "image": "shopify://shop_images/f-video.jpg",
             "caption": "",
             "heading": "VIDEO BACKGROUND",
             "text": "<p>Capture attention instantly with a full-width video background that brings your brand to life. This dynamic section features titles, description, and call-to-action button, allowing you to highlight key messages in an engaging and visually striking way.</p>",
@@ -166,8 +177,9 @@
         "row_HYMWL7",
         "row_qaHmYp",
         "row_HUBV6Q",
-        "row_GNbaiX",
         "row_YbTBWt",
+        "row_wKPKmr",
+        "row_GNbaiX",
         "row_UbzpTK",
         "row_Uh3pk4",
         "row_q3DmDc",
