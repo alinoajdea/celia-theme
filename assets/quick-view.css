@@ -251,7 +251,6 @@ a.view-full-details:hover {
     background-color: #fff;
     color: rgb(var(--color-foreground));
     cursor: pointer;
-    border-radius: 50px;
     margin-right: 8px;
     min-width: 48px;
 }
@@ -304,7 +303,6 @@ a.view-full-details:hover {
     font-size: 1.3rem;
     text-align: center;
     border: 1px solid #ddd;
-    border-radius: 50px;
     margin-right: 8px;
 }
 
@@ -317,7 +315,6 @@ a.view-full-details:hover {
     background-color: rgb(var(--color-button));
     color: white;
     border: none;
-    border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
