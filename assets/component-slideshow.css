@@ -82,12 +82,12 @@ slideshow-component .slideshow.banner {
 
 @media screen and (max-width: 749px) {
   .slideshow.banner--large {
-    height: 48rem;
+    height: 42rem;
   }
   
   .slideshow--placeholder.banner--mobile-bottom.banner--adapt_image .slideshow__media,
   .slideshow--placeholder.banner--adapt_image:not(.banner--mobile-bottom) {
-    height: 28rem;
+    height: 42rem;
   }  
   
   .slideshow-component.page-width .slideshow__text {
@@ -394,19 +394,19 @@ slideshow-component:not(.page-width) .slider-buttons {
     padding: 4rem 1.5rem 0rem 1.5rem;
   }
   .slideshow__slide .slideshow__text h2 {
-    font-size: 2.6em;
+    font-size: 3em;
   }
   .slideshow__text.banner__box .top-heading {    
     margin-bottom: 0;
   }
   .slideshow__slide .slideshow__text .banner__text p {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   .slideshow__slide .slideshow__text .banner__buttons {
     margin-top: 3rem;
   }
   .slideshow__slide .banner__buttons a {
-   padding: 20px 38px;
+   padding: 18px 30px;
   }
 }
 
