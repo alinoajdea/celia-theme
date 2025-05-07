@@ -25,10 +25,7 @@
       "block_order": [
         "announcement-bar-0"
       ],
-      "custom_css": [
-        "p {font-size: calc(var(--font-heading-scale) * 1.45rem); line-height: 1.4; min-height: auto; padding: 1.2rem 0;}",
-        "@media (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.25rem); }}"
-      ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "scheme-2",
         "show_line_separator": false,
