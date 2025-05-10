@@ -99,7 +99,7 @@
           "settings": {
             "image": "shopify://shop_images/f-fonts.jpg",
             "caption": "",
-            "heading": "UPLOAD CUSTOM FONTS",
+            "heading": "UPLOAD YOUR OWN CUSTOM FONTS",
             "text": "<p>Do you want to use fonts that are not in the Shopify font list? No problem, simply upload your font to the file library and copy - paste the link in theme settings.</p>",
             "button_label": "",
             "button_link": ""
