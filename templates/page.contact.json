@@ -23,8 +23,8 @@
         "text_XwtFi7": {
           "type": "text",
           "settings": {
-            "text": "Contact",
-            "text_style": "subtitle"
+            "text": "CONTACT",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "heading_fMAkVi": {
