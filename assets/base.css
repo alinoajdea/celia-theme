@@ -2655,6 +2655,10 @@ details[open] .modal-overlay::after {
   height: 100vh;
 }
 
+.search-modal .modal-overlay::after {
+  background-color: rgb(var(--color-foreground), 0);
+}
+
 .search-modal {
   opacity: 0;
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
