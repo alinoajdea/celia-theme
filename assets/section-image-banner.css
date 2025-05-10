@@ -9,7 +9,7 @@
 .banner .caption-with-letter-spacing {
   color: rgb(var(--color-button));
   letter-spacing: 0.5px;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .banner__box {
@@ -402,8 +402,7 @@
 }
 
 .banner__text.subtitle {
-  font-family: 'Calligraphic', sans-serif;
-  font-size: 4.8em;
+  font-size: 1.7em;
   line-height: 1;  
   margin-top: 0;
   margin-bottom: 0;
