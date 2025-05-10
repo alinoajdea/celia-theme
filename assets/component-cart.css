@@ -23,6 +23,7 @@ cart-items.is-empty .title-wrapper-with-link,
 
 .cart__empty-text {
   margin: 4.5rem 0 2rem;
+  text-transform: uppercase;
 }
 
 .cart__contents > * + * {
@@ -47,7 +48,7 @@ cart-items.is-empty .title-wrapper-with-link,
   }
 
   .cart__empty-text {
-    margin: 0 0 3rem;
+    margin: 0 0 3rem;    
   }
 }
 
